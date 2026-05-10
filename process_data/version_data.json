@@ -1,0 +1,4525 @@
+{
+    "values": {
+        "minecraft:air": {
+            "version": "1.7.2"
+        },
+        "minecraft:cobblestone": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:cobblestone_slab": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:cobblestone_stairs": {
+            "version": "Infdev"
+        },
+        "minecraft:cobblestone_wall": {
+            "version": "1.4.2"
+        },
+        "minecraft:infested_cobblestone": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:mossy_cobblestone": {
+            "version": "Classic"
+        },
+        "minecraft:mossy_cobblestone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:mossy_cobblestone_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:mossy_cobblestone_wall": {
+            "version": "1.4.2"
+        },
+        "minecraft:stone": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:stone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:stone_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:infested_stone": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:smooth_stone": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:smooth_stone_slab": {
+            "version": "Classic"
+        },
+        "minecraft:stone_bricks": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:stone_brick_slab": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:stone_brick_stairs": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:stone_brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:infested_stone_bricks": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:cracked_stone_bricks": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:infested_cracked_stone_bricks": {
+            "version": "1.7.2"
+        },
+        "minecraft:chiseled_stone_bricks": {
+            "version": "1.2"
+        },
+        "minecraft:infested_chiseled_stone_bricks": {
+            "version": "1.7.2"
+        },
+        "minecraft:mossy_stone_bricks": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:mossy_stone_brick_slab": {
+            "version": "1.14"
+        },
+        "minecraft:mossy_stone_brick_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:mossy_stone_brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:infested_mossy_stone_bricks": {
+            "version": "1.7.2"
+        },
+        "minecraft:stone_pressure_plate": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:stone_button": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:deepslate": {
+            "version": "1.17"
+        },
+        "minecraft:cobbled_deepslate": {
+            "version": "1.17"
+        },
+        "minecraft:cobbled_deepslate_slab": {
+            "version": "1.17"
+        },
+        "minecraft:cobbled_deepslate_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:cobbled_deepslate_wall": {
+            "version": "1.17"
+        },
+        "minecraft:infested_deepslate": {
+            "version": "1.17"
+        },
+        "minecraft:polished_deepslate": {
+            "version": "1.17"
+        },
+        "minecraft:polished_deepslate_slab": {
+            "version": "1.17"
+        },
+        "minecraft:polished_deepslate_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:polished_deepslate_wall": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_bricks": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_brick_slab": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_brick_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_brick_wall": {
+            "version": "1.17"
+        },
+        "minecraft:cracked_deepslate_bricks": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_tiles": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_tile_slab": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_tile_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_tile_wall": {
+            "version": "1.17"
+        },
+        "minecraft:cracked_deepslate_tiles": {
+            "version": "1.17"
+        },
+        "minecraft:chiseled_deepslate": {
+            "version": "1.17"
+        },
+        "minecraft:reinforced_deepslate": {
+            "version": "1.19"
+        },
+        "minecraft:bedrock": {
+            "version": "Classic"
+        },
+        "minecraft:diorite": {
+            "version": "1.8"
+        },
+        "minecraft:diorite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:diorite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:diorite_wall": {
+            "version": "1.14"
+        },
+        "minecraft:polished_diorite": {
+            "version": "1.8"
+        },
+        "minecraft:polished_diorite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:polished_diorite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:andesite": {
+            "version": "1.8"
+        },
+        "minecraft:andesite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:andesite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:andesite_wall": {
+            "version": "1.14"
+        },
+        "minecraft:polished_andesite": {
+            "version": "1.8"
+        },
+        "minecraft:polished_andesite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:polished_andesite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:granite": {
+            "version": "1.8"
+        },
+        "minecraft:granite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:granite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:granite_wall": {
+            "version": "1.14"
+        },
+        "minecraft:polished_granite": {
+            "version": "1.8"
+        },
+        "minecraft:polished_granite_slab": {
+            "version": "1.14"
+        },
+        "minecraft:polished_granite_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:tuff": {
+            "version": "1.17"
+        },
+        "minecraft:tuff_slab": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_stairs": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_wall": {
+            "version": "1.21"
+        },
+        "minecraft:chiseled_tuff": {
+            "version": "1.21"
+        },
+        "minecraft:polished_tuff": {
+            "version": "1.21"
+        },
+        "minecraft:polished_tuff_slab": {
+            "version": "1.21"
+        },
+        "minecraft:polished_tuff_stairs": {
+            "version": "1.21"
+        },
+        "minecraft:polished_tuff_wall": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_bricks": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_brick_slab": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_brick_stairs": {
+            "version": "1.21"
+        },
+        "minecraft:tuff_brick_wall": {
+            "version": "1.21"
+        },
+        "minecraft:chiseled_tuff_bricks": {
+            "version": "1.21"
+        },
+        "minecraft:calcite": {
+            "version": "1.17"
+        },
+        "minecraft:dripstone_block": {
+            "version": "1.17"
+        },
+        "minecraft:pointed_dripstone": {
+            "version": "1.17"
+        },
+        "minecraft:dirt": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:grass_block": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:mycelium": {
+            "version": "1.0.0"
+        },
+        "minecraft:podzol": {
+            "version": "1.7.2"
+        },
+        "minecraft:coarse_dirt": {
+            "version": "1.7.2"
+        },
+        "minecraft:rooted_dirt": {
+            "version": "1.17"
+        },
+        "minecraft:dirt_path": {
+            "version": "1.9"
+        },
+        "minecraft:farmland": {
+            "version": "Indev"
+        },
+        "minecraft:oak_log": {
+            "version": "Classic"
+        },
+        "minecraft:oak_wood": {
+            "version": "1.3.1"
+        },
+        "minecraft:stripped_oak_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_oak_wood": {
+            "version": "1.13"
+        },
+        "minecraft:oak_planks": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:oak_slab": {
+            "version": "1.3.1"
+        },
+        "minecraft:oak_stairs": {
+            "version": "Infdev"
+        },
+        "minecraft:oak_fence": {
+            "version": "Alpha 1.0.17"
+        },
+        "minecraft:oak_fence_gate": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:oak_door": {
+            "version": "Infdev"
+        },
+        "minecraft:oak_trapdoor": {
+            "version": "Beta 1.6"
+        },
+        "minecraft:oak_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:oak_sign": {
+            "version": "Infdev"
+        },
+        "minecraft:oak_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:oak_pressure_plate": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:oak_button": {
+            "version": "1.4.2"
+        },
+        "minecraft:oak_boat": {
+            "version": "Alpha 1.0.6"
+        },
+        "minecraft:oak_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:birch_log": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:birch_wood": {
+            "version": "1.3.1"
+        },
+        "minecraft:stripped_birch_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_birch_wood": {
+            "version": "1.13"
+        },
+        "minecraft:birch_planks": {
+            "version": "1.2.4"
+        },
+        "minecraft:birch_slab": {
+            "version": "1.3.1"
+        },
+        "minecraft:birch_stairs": {
+            "version": "1.3.1"
+        },
+        "minecraft:birch_fence": {
+            "version": "1.8"
+        },
+        "minecraft:birch_fence_gate": {
+            "version": "1.8"
+        },
+        "minecraft:birch_door": {
+            "version": "1.8"
+        },
+        "minecraft:birch_trapdoor": {
+            "version": "1.13"
+        },
+        "minecraft:birch_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:birch_sign": {
+            "version": "1.14"
+        },
+        "minecraft:birch_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:birch_pressure_plate": {
+            "version": "1.13"
+        },
+        "minecraft:birch_button": {
+            "version": "1.13"
+        },
+        "minecraft:birch_boat": {
+            "version": "1.9"
+        },
+        "minecraft:birch_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:spruce_log": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:spruce_wood": {
+            "version": "1.3.1"
+        },
+        "minecraft:stripped_spruce_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_spruce_wood": {
+            "version": "1.13"
+        },
+        "minecraft:spruce_planks": {
+            "version": "1.2.4"
+        },
+        "minecraft:spruce_slab": {
+            "version": "1.3.1"
+        },
+        "minecraft:spruce_stairs": {
+            "version": "1.3.1"
+        },
+        "minecraft:spruce_fence": {
+            "version": "1.8"
+        },
+        "minecraft:spruce_fence_gate": {
+            "version": "1.8"
+        },
+        "minecraft:spruce_door": {
+            "version": "1.8"
+        },
+        "minecraft:spruce_trapdoor": {
+            "version": "1.13"
+        },
+        "minecraft:spruce_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:spruce_sign": {
+            "version": "1.14"
+        },
+        "minecraft:spruce_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:spruce_pressure_plate": {
+            "version": "1.13"
+        },
+        "minecraft:spruce_button": {
+            "version": "1.13"
+        },
+        "minecraft:spruce_boat": {
+            "version": "1.9"
+        },
+        "minecraft:spruce_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:jungle_log": {
+            "version": "1.2.1"
+        },
+        "minecraft:jungle_wood": {
+            "version": "1.3.1"
+        },
+        "minecraft:stripped_jungle_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_jungle_wood": {
+            "version": "1.13"
+        },
+        "minecraft:jungle_planks": {
+            "version": "1.2.4"
+        },
+        "minecraft:jungle_slab": {
+            "version": "1.3.1"
+        },
+        "minecraft:jungle_stairs": {
+            "version": "1.3.1"
+        },
+        "minecraft:jungle_fence": {
+            "version": "1.8"
+        },
+        "minecraft:jungle_fence_gate": {
+            "version": "1.8"
+        },
+        "minecraft:jungle_door": {
+            "version": "1.8"
+        },
+        "minecraft:jungle_trapdoor": {
+            "version": "1.13"
+        },
+        "minecraft:jungle_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:jungle_sign": {
+            "version": "1.14"
+        },
+        "minecraft:jungle_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:jungle_pressure_plate": {
+            "version": "1.13"
+        },
+        "minecraft:jungle_button": {
+            "version": "1.13"
+        },
+        "minecraft:jungle_boat": {
+            "version": "1.9"
+        },
+        "minecraft:jungle_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:dark_oak_log": {
+            "version": "1.7.2"
+        },
+        "minecraft:dark_oak_wood": {
+            "version": "1.7.2"
+        },
+        "minecraft:stripped_dark_oak_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_dark_oak_wood": {
+            "version": "1.13"
+        },
+        "minecraft:dark_oak_planks": {
+            "version": "1.7.1"
+        },
+        "minecraft:dark_oak_slab": {
+            "version": "1.7"
+        },
+        "minecraft:dark_oak_stairs": {
+            "version": "1.7"
+        },
+        "minecraft:dark_oak_fence": {
+            "version": "1.8"
+        },
+        "minecraft:dark_oak_fence_gate": {
+            "version": "1.8"
+        },
+        "minecraft:dark_oak_door": {
+            "version": "1.8"
+        },
+        "minecraft:dark_oak_trapdoor": {
+            "version": "1.13"
+        },
+        "minecraft:dark_oak_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:dark_oak_sign": {
+            "version": "1.14"
+        },
+        "minecraft:dark_oak_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:dark_oak_pressure_plate": {
+            "version": "1.13"
+        },
+        "minecraft:dark_oak_button": {
+            "version": "1.13"
+        },
+        "minecraft:dark_oak_boat": {
+            "version": "1.9"
+        },
+        "minecraft:dark_oak_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:acacia_log": {
+            "version": "1.7.2"
+        },
+        "minecraft:acacia_wood": {
+            "version": "1.7.2"
+        },
+        "minecraft:stripped_acacia_log": {
+            "version": "1.13"
+        },
+        "minecraft:stripped_acacia_wood": {
+            "version": "1.13"
+        },
+        "minecraft:acacia_planks": {
+            "version": "1.7.1"
+        },
+        "minecraft:acacia_slab": {
+            "version": "1.7"
+        },
+        "minecraft:acacia_stairs": {
+            "version": "1.7"
+        },
+        "minecraft:acacia_fence": {
+            "version": "1.8"
+        },
+        "minecraft:acacia_fence_gate": {
+            "version": "1.8"
+        },
+        "minecraft:acacia_door": {
+            "version": "1.8"
+        },
+        "minecraft:acacia_trapdoor": {
+            "version": "1.13"
+        },
+        "minecraft:acacia_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:acacia_sign": {
+            "version": "1.14"
+        },
+        "minecraft:acacia_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:acacia_pressure_plate": {
+            "version": "1.13"
+        },
+        "minecraft:acacia_button": {
+            "version": "1.13"
+        },
+        "minecraft:acacia_boat": {
+            "version": "1.9"
+        },
+        "minecraft:acacia_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_log": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_wood": {
+            "version": "1.19"
+        },
+        "minecraft:stripped_mangrove_log": {
+            "version": "1.19"
+        },
+        "minecraft:stripped_mangrove_wood": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_planks": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_slab": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_stairs": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_fence": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_fence_gate": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_door": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_trapdoor": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:mangrove_sign": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:mangrove_pressure_plate": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_button": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_boat": {
+            "version": "1.19"
+        },
+        "minecraft:mangrove_chest_boat": {
+            "version": "1.19"
+        },
+        "minecraft:cherry_log": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_wood": {
+            "version": "1.20"
+        },
+        "minecraft:stripped_cherry_log": {
+            "version": "1.20"
+        },
+        "minecraft:stripped_cherry_wood": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_planks": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_slab": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_stairs": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_fence": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_fence_gate": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_door": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_trapdoor": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:cherry_sign": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_pressure_plate": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_button": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_boat": {
+            "version": "1.20"
+        },
+        "minecraft:cherry_chest_boat": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_block": {
+            "version": "1.20"
+        },
+        "minecraft:stripped_bamboo_block": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_planks": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_slab": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_stairs": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_fence": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_fence_gate": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_door": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_trapdoor": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:bamboo_sign": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_pressure_plate": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_button": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_raft": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_chest_raft": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_mosaic": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_mosaic_slab": {
+            "version": "1.20"
+        },
+        "minecraft:bamboo_mosaic_stairs": {
+            "version": "1.20"
+        },
+        "minecraft:pale_oak_log": {
+            "version": "1.21.4"
+        },
+        "minecraft:creaking_heart": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_wood": {
+            "version": "1.21.4"
+        },
+        "minecraft:stripped_pale_oak_log": {
+            "version": "1.21.4"
+        },
+        "minecraft:stripped_pale_oak_wood": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_planks": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_slab": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_stairs": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_fence": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_fence_gate": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_door": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_trapdoor": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:pale_oak_sign": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_hanging_sign": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_pressure_plate": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_button": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_boat": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_oak_chest_boat": {
+            "version": "1.21.4"
+        },
+        "minecraft:warped_stem": {
+            "version": "1.16"
+        },
+        "minecraft:warped_hyphae": {
+            "version": "1.16"
+        },
+        "minecraft:stripped_warped_stem": {
+            "version": "1.16"
+        },
+        "minecraft:stripped_warped_hyphae": {
+            "version": "1.16"
+        },
+        "minecraft:warped_planks": {
+            "version": "1.16"
+        },
+        "minecraft:warped_slab": {
+            "version": "1.16"
+        },
+        "minecraft:warped_stairs": {
+            "version": "1.16"
+        },
+        "minecraft:warped_fence": {
+            "version": "1.16"
+        },
+        "minecraft:warped_fence_gate": {
+            "version": "1.16"
+        },
+        "minecraft:warped_door": {
+            "version": "1.16"
+        },
+        "minecraft:warped_trapdoor": {
+            "version": "1.16"
+        },
+        "minecraft:warped_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:warped_sign": {
+            "version": "1.16"
+        },
+        "minecraft:warped_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:warped_pressure_plate": {
+            "version": "1.16"
+        },
+        "minecraft:warped_button": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_stem": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_hyphae": {
+            "version": "1.16"
+        },
+        "minecraft:stripped_crimson_stem": {
+            "version": "1.16"
+        },
+        "minecraft:stripped_crimson_hyphae": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_planks": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_slab": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_stairs": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_fence": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_fence_gate": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_door": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_trapdoor": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_shelf": {
+            "version": "1.21.9"
+        },
+        "minecraft:crimson_sign": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_hanging_sign": {
+            "version": "1.20"
+        },
+        "minecraft:crimson_pressure_plate": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_button": {
+            "version": "1.16"
+        },
+        "minecraft:petrified_oak_slab": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:gravel": {
+            "version": "Classic"
+        },
+        "minecraft:suspicious_gravel": {
+            "version": "1.20"
+        },
+        "minecraft:flint": {
+            "version": "Indev"
+        },
+        "minecraft:sand": {
+            "version": "Classic"
+        },
+        "minecraft:suspicious_sand": {
+            "version": "1.20"
+        },
+        "minecraft:sandstone": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:sandstone_slab": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:sandstone_stairs": {
+            "version": "1.3.1"
+        },
+        "minecraft:sandstone_wall": {
+            "version": "1.14"
+        },
+        "minecraft:smooth_sandstone": {
+            "version": "1.13"
+        },
+        "minecraft:smooth_sandstone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:smooth_sandstone_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:cut_sandstone": {
+            "version": "1.5"
+        },
+        "minecraft:cut_sandstone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:chiseled_sandstone": {
+            "version": "1.2.4"
+        },
+        "minecraft:red_sand": {
+            "version": "1.7.2"
+        },
+        "minecraft:red_sandstone": {
+            "version": "1.8"
+        },
+        "minecraft:red_sandstone_slab": {
+            "version": "1.8"
+        },
+        "minecraft:red_sandstone_stairs": {
+            "version": "1.8"
+        },
+        "minecraft:red_sandstone_wall": {
+            "version": "1.14"
+        },
+        "minecraft:smooth_red_sandstone": {
+            "version": "1.13"
+        },
+        "minecraft:smooth_red_sandstone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:smooth_red_sandstone_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:cut_red_sandstone": {
+            "version": "1.8"
+        },
+        "minecraft:cut_red_sandstone_slab": {
+            "version": "1.14"
+        },
+        "minecraft:chiseled_red_sandstone": {
+            "version": "1.8"
+        },
+        "minecraft:emerald_ore": {
+            "version": "1.3.1"
+        },
+        "minecraft:deepslate_emerald_ore": {
+            "version": "1.17"
+        },
+        "minecraft:coal_ore": {
+            "version": "Classic"
+        },
+        "minecraft:deepslate_coal_ore": {
+            "version": "1.17"
+        },
+        "minecraft:copper_ore": {
+            "version": "1.17"
+        },
+        "minecraft:deepslate_copper_ore": {
+            "version": "1.17"
+        },
+        "minecraft:iron_ore": {
+            "version": "Classic"
+        },
+        "minecraft:deepslate_iron_ore": {
+            "version": "1.17"
+        },
+        "minecraft:lapis_ore": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:deepslate_lapis_ore": {
+            "version": "1.17"
+        },
+        "minecraft:gold_ore": {
+            "version": "Classic"
+        },
+        "minecraft:deepslate_gold_ore": {
+            "version": "1.17"
+        },
+        "minecraft:redstone_ore": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:deepslate_redstone_ore": {
+            "version": "1.17"
+        },
+        "minecraft:diamond_ore": {
+            "version": "Indev"
+        },
+        "minecraft:deepslate_diamond_ore": {
+            "version": "1.17"
+        },
+        "minecraft:nether_quartz_ore": {
+            "version": "1.5"
+        },
+        "minecraft:nether_gold_ore": {
+            "version": "1.16"
+        },
+        "minecraft:ancient_debris": {
+            "version": "1.16"
+        },
+        "minecraft:emerald": {
+            "version": "1.3.1"
+        },
+        "minecraft:emerald_block": {
+            "version": "1.3.1"
+        },
+        "minecraft:coal": {
+            "version": "Indev"
+        },
+        "minecraft:coal_block": {
+            "version": "1.6.1"
+        },
+        "minecraft:raw_copper": {
+            "version": "1.17"
+        },
+        "minecraft:raw_copper_block": {
+            "version": "1.17"
+        },
+        "minecraft:copper_ingot": {
+            "version": "1.17"
+        },
+        "minecraft:copper_block": {
+            "version": "1.17"
+        },
+        "minecraft:exposed_copper": {
+            "version": "1.17"
+        },
+        "minecraft:weathered_copper": {
+            "version": "1.17"
+        },
+        "minecraft:oxidized_copper": {
+            "version": "1.17"
+        },
+        "minecraft:cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:exposed_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:weathered_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:oxidized_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:exposed_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:weathered_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:oxidized_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:exposed_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:weathered_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:oxidized_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:exposed_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:weathered_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:oxidized_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:exposed_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:weathered_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:oxidized_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:exposed_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:weathered_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:oxidized_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:exposed_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:exposed_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:weathered_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:oxidized_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:exposed_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:weathered_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:oxidized_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:exposed_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:exposed_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:exposed_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:lightning_rod": {
+            "version": "1.17"
+        },
+        "minecraft:exposed_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:exposed_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:weathered_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:oxidized_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_block": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_exposed_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_weathered_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_oxidized_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_exposed_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_weathered_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_oxidized_cut_copper": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_exposed_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_weathered_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_oxidized_cut_copper_slab": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_exposed_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_weathered_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_oxidized_cut_copper_stairs": {
+            "version": "1.17"
+        },
+        "minecraft:waxed_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_exposed_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_weathered_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_oxidized_chiseled_copper": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_exposed_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_weathered_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_oxidized_copper_grate": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_exposed_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_weathered_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_oxidized_copper_bulb": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_copper_chest": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_exposed_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_weathered_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_oxidized_copper_door": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_exposed_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_weathered_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_oxidized_copper_trapdoor": {
+            "version": "1.21"
+        },
+        "minecraft:waxed_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_copper_bars": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_copper_chain": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_copper_lantern": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_lightning_rod": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_exposed_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_weathered_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:waxed_oxidized_copper_golem_statue": {
+            "version": "1.21.9"
+        },
+        "minecraft:copper_nugget": {
+            "version": "1.21.9"
+        },
+        "minecraft:raw_iron": {
+            "version": "1.17"
+        },
+        "minecraft:raw_iron_block": {
+            "version": "1.17"
+        },
+        "minecraft:iron_ingot": {
+            "version": "Indev"
+        },
+        "minecraft:iron_block": {
+            "version": "Classic"
+        },
+        "minecraft:iron_door": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:iron_trapdoor": {
+            "version": "1.8"
+        },
+        "minecraft:iron_bars": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:iron_chain": {
+            "version": "1.16"
+        },
+        "minecraft:heavy_weighted_pressure_plate": {
+            "version": "1.5"
+        },
+        "minecraft:iron_nugget": {
+            "version": "1.11.1"
+        },
+        "minecraft:lapis_lazuli": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:lapis_block": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:raw_gold": {
+            "version": "1.17"
+        },
+        "minecraft:raw_gold_block": {
+            "version": "1.17"
+        },
+        "minecraft:gold_ingot": {
+            "version": "Indev"
+        },
+        "minecraft:gold_block": {
+            "version": "Classic"
+        },
+        "minecraft:light_weighted_pressure_plate": {
+            "version": "1.5"
+        },
+        "minecraft:gold_nugget": {
+            "version": "1.0.0"
+        },
+        "minecraft:redstone": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:redstone_block": {
+            "version": "1.5"
+        },
+        "minecraft:diamond": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_block": {
+            "version": "Indev"
+        },
+        "minecraft:quartz": {
+            "version": "1.5"
+        },
+        "minecraft:quartz_block": {
+            "version": "1.5"
+        },
+        "minecraft:quartz_slab": {
+            "version": "1.5"
+        },
+        "minecraft:quartz_stairs": {
+            "version": "1.5"
+        },
+        "minecraft:smooth_quartz": {
+            "version": "1.5"
+        },
+        "minecraft:smooth_quartz_slab": {
+            "version": "1.14"
+        },
+        "minecraft:smooth_quartz_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:chiseled_quartz_block": {
+            "version": "1.5"
+        },
+        "minecraft:quartz_pillar": {
+            "version": "1.5"
+        },
+        "minecraft:quartz_bricks": {
+            "version": "1.16"
+        },
+        "minecraft:netherite_scrap": {
+            "version": "1.16"
+        },
+        "minecraft:netherite_ingot": {
+            "version": "1.16"
+        },
+        "minecraft:netherite_block": {
+            "version": "1.16"
+        },
+        "minecraft:small_amethyst_bud": {
+            "version": "1.17"
+        },
+        "minecraft:medium_amethyst_bud": {
+            "version": "1.17"
+        },
+        "minecraft:large_amethyst_bud": {
+            "version": "1.17"
+        },
+        "minecraft:amethyst_cluster": {
+            "version": "1.17"
+        },
+        "minecraft:amethyst_shard": {
+            "version": "1.17"
+        },
+        "minecraft:amethyst_block": {
+            "version": "1.17"
+        },
+        "minecraft:budding_amethyst": {
+            "version": "1.17"
+        },
+        "minecraft:resin_clump": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_block": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_brick": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_bricks": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_brick_slab": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_brick_stairs": {
+            "version": "1.21.4"
+        },
+        "minecraft:resin_brick_wall": {
+            "version": "1.21.4"
+        },
+        "minecraft:chiseled_resin_bricks": {
+            "version": "1.21.4"
+        },
+        "minecraft:clay_ball": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:clay": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:brick": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:bricks": {
+            "version": "Classic"
+        },
+        "minecraft:brick_slab": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:brick_stairs": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:mud": {
+            "version": "1.19"
+        },
+        "minecraft:packed_mud": {
+            "version": "1.19"
+        },
+        "minecraft:mud_bricks": {
+            "version": "1.19"
+        },
+        "minecraft:mud_brick_slab": {
+            "version": "1.19"
+        },
+        "minecraft:mud_brick_stairs": {
+            "version": "1.19"
+        },
+        "minecraft:mud_brick_wall": {
+            "version": "1.19"
+        },
+        "minecraft:prismarine_shard": {
+            "version": "1.8"
+        },
+        "minecraft:prismarine_crystals": {
+            "version": "1.8"
+        },
+        "minecraft:prismarine": {
+            "version": "1.8"
+        },
+        "minecraft:prismarine_slab": {
+            "version": "1.13"
+        },
+        "minecraft:prismarine_stairs": {
+            "version": "1.13"
+        },
+        "minecraft:prismarine_wall": {
+            "version": "1.14"
+        },
+        "minecraft:prismarine_bricks": {
+            "version": "1.8"
+        },
+        "minecraft:prismarine_brick_slab": {
+            "version": "1.13"
+        },
+        "minecraft:prismarine_brick_stairs": {
+            "version": "1.13"
+        },
+        "minecraft:dark_prismarine": {
+            "version": "1.8"
+        },
+        "minecraft:dark_prismarine_slab": {
+            "version": "1.13"
+        },
+        "minecraft:dark_prismarine_stairs": {
+            "version": "1.13"
+        },
+        "minecraft:sea_lantern": {
+            "version": "1.8"
+        },
+        "minecraft:sponge": {
+            "version": "Classic"
+        },
+        "minecraft:wet_sponge": {
+            "version": "1.8"
+        },
+        "minecraft:snowball": {
+            "version": "Alpha 1.0.5"
+        },
+        "minecraft:snow_block": {
+            "version": "Alpha 1.0.5"
+        },
+        "minecraft:snow": {
+            "version": "Alpha 1.0.4"
+        },
+        "minecraft:ice": {
+            "version": "Alpha 1.0.4"
+        },
+        "minecraft:packed_ice": {
+            "version": "1.7.2"
+        },
+        "minecraft:blue_ice": {
+            "version": "1.13"
+        },
+        "minecraft:netherrack": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:glowstone_dust": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:glowstone": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:shroomlight": {
+            "version": "1.16"
+        },
+        "minecraft:magma_block": {
+            "version": "1.10"
+        },
+        "minecraft:nether_wart": {
+            "version": "1.0.0"
+        },
+        "minecraft:nether_brick": {
+            "version": "1.5"
+        },
+        "minecraft:nether_bricks": {
+            "version": "1.0.0"
+        },
+        "minecraft:nether_brick_slab": {
+            "version": "1.4.6"
+        },
+        "minecraft:nether_brick_stairs": {
+            "version": "1.0.0"
+        },
+        "minecraft:nether_brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:nether_brick_fence": {
+            "version": "1.0.0"
+        },
+        "minecraft:chiseled_nether_bricks": {
+            "version": "1.16"
+        },
+        "minecraft:cracked_nether_bricks": {
+            "version": "1.16"
+        },
+        "minecraft:red_nether_bricks": {
+            "version": "1.10"
+        },
+        "minecraft:red_nether_brick_slab": {
+            "version": "1.14"
+        },
+        "minecraft:red_nether_brick_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:red_nether_brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:warped_nylium": {
+            "version": "1.16"
+        },
+        "minecraft:warped_wart_block": {
+            "version": "1.16"
+        },
+        "minecraft:warped_fungus": {
+            "version": "1.16"
+        },
+        "minecraft:warped_roots": {
+            "version": "1.16"
+        },
+        "minecraft:nether_sprouts": {
+            "version": "1.16"
+        },
+        "minecraft:twisting_vines": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_nylium": {
+            "version": "1.16"
+        },
+        "minecraft:nether_wart_block": {
+            "version": "1.10"
+        },
+        "minecraft:crimson_fungus": {
+            "version": "1.16"
+        },
+        "minecraft:crimson_roots": {
+            "version": "1.16"
+        },
+        "minecraft:weeping_vines": {
+            "version": "1.16"
+        },
+        "minecraft:basalt": {
+            "version": "1.16"
+        },
+        "minecraft:polished_basalt": {
+            "version": "1.16"
+        },
+        "minecraft:smooth_basalt": {
+            "version": "1.17"
+        },
+        "minecraft:soul_sand": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:soul_soil": {
+            "version": "1.16"
+        },
+        "minecraft:blackstone": {
+            "version": "1.16"
+        },
+        "minecraft:blackstone_slab": {
+            "version": "1.16"
+        },
+        "minecraft:blackstone_stairs": {
+            "version": "1.16"
+        },
+        "minecraft:blackstone_wall": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_slab": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_stairs": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_wall": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_bricks": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_brick_slab": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_brick_stairs": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_brick_wall": {
+            "version": "1.16"
+        },
+        "minecraft:cracked_polished_blackstone_bricks": {
+            "version": "1.16"
+        },
+        "minecraft:chiseled_polished_blackstone": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_pressure_plate": {
+            "version": "1.16"
+        },
+        "minecraft:polished_blackstone_button": {
+            "version": "1.16"
+        },
+        "minecraft:gilded_blackstone": {
+            "version": "1.16"
+        },
+        "minecraft:obsidian": {
+            "version": "Classic"
+        },
+        "minecraft:crying_obsidian": {
+            "version": "1.16"
+        },
+        "minecraft:end_stone": {
+            "version": "1.0.0"
+        },
+        "minecraft:end_stone_bricks": {
+            "version": "1.9"
+        },
+        "minecraft:end_stone_brick_slab": {
+            "version": "1.14"
+        },
+        "minecraft:end_stone_brick_stairs": {
+            "version": "1.14"
+        },
+        "minecraft:end_stone_brick_wall": {
+            "version": "1.14"
+        },
+        "minecraft:end_portal_frame": {
+            "version": "1.0.0"
+        },
+        "minecraft:chorus_flower": {
+            "version": "1.9"
+        },
+        "minecraft:chorus_plant": {
+            "version": "1.9"
+        },
+        "minecraft:chorus_fruit": {
+            "version": "1.9"
+        },
+        "minecraft:popped_chorus_fruit": {
+            "version": "1.9"
+        },
+        "minecraft:purpur_block": {
+            "version": "1.9"
+        },
+        "minecraft:purpur_slab": {
+            "version": "1.9"
+        },
+        "minecraft:purpur_stairs": {
+            "version": "1.9"
+        },
+        "minecraft:purpur_pillar": {
+            "version": "1.9"
+        },
+        "minecraft:white_dye": {
+            "version": "1.14"
+        },
+        "minecraft:light_gray_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:gray_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:black_dye": {
+            "version": "1.14"
+        },
+        "minecraft:brown_dye": {
+            "version": "1.14"
+        },
+        "minecraft:red_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:orange_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:yellow_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:lime_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:green_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:cyan_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:light_blue_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:blue_dye": {
+            "version": "1.14"
+        },
+        "minecraft:purple_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:magenta_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:pink_dye": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:white_wool": {
+            "version": "Classic"
+        },
+        "minecraft:light_gray_wool": {
+            "version": "Classic"
+        },
+        "minecraft:gray_wool": {
+            "version": "Classic"
+        },
+        "minecraft:black_wool": {
+            "version": "Classic"
+        },
+        "minecraft:brown_wool": {
+            "version": "Classic"
+        },
+        "minecraft:red_wool": {
+            "version": "Classic"
+        },
+        "minecraft:orange_wool": {
+            "version": "Classic"
+        },
+        "minecraft:yellow_wool": {
+            "version": "Classic"
+        },
+        "minecraft:lime_wool": {
+            "version": "Classic"
+        },
+        "minecraft:green_wool": {
+            "version": "Classic"
+        },
+        "minecraft:cyan_wool": {
+            "version": "Classic"
+        },
+        "minecraft:light_blue_wool": {
+            "version": "Classic"
+        },
+        "minecraft:blue_wool": {
+            "version": "Classic"
+        },
+        "minecraft:purple_wool": {
+            "version": "Classic"
+        },
+        "minecraft:magenta_wool": {
+            "version": "Classic"
+        },
+        "minecraft:pink_wool": {
+            "version": "Classic"
+        },
+        "minecraft:white_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:light_gray_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:gray_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:black_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:brown_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:red_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:orange_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:yellow_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:lime_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:green_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:cyan_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:light_blue_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:blue_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:purple_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:magenta_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:pink_carpet": {
+            "version": "1.6.1"
+        },
+        "minecraft:white_banner": {
+            "version": "1.8"
+        },
+        "minecraft:light_gray_banner": {
+            "version": "1.8"
+        },
+        "minecraft:gray_banner": {
+            "version": "1.8"
+        },
+        "minecraft:black_banner": {
+            "version": "1.8"
+        },
+        "minecraft:brown_banner": {
+            "version": "1.8"
+        },
+        "minecraft:red_banner": {
+            "version": "1.8"
+        },
+        "minecraft:orange_banner": {
+            "version": "1.8"
+        },
+        "minecraft:yellow_banner": {
+            "version": "1.8"
+        },
+        "minecraft:lime_banner": {
+            "version": "1.8"
+        },
+        "minecraft:green_banner": {
+            "version": "1.8"
+        },
+        "minecraft:cyan_banner": {
+            "version": "1.8"
+        },
+        "minecraft:light_blue_banner": {
+            "version": "1.8"
+        },
+        "minecraft:blue_banner": {
+            "version": "1.8"
+        },
+        "minecraft:purple_banner": {
+            "version": "1.8"
+        },
+        "minecraft:magenta_banner": {
+            "version": "1.8"
+        },
+        "minecraft:pink_banner": {
+            "version": "1.8"
+        },
+        "minecraft:white_bed": {
+            "version": "1.12"
+        },
+        "minecraft:light_gray_bed": {
+            "version": "1.12"
+        },
+        "minecraft:gray_bed": {
+            "version": "1.12"
+        },
+        "minecraft:black_bed": {
+            "version": "1.12"
+        },
+        "minecraft:brown_bed": {
+            "version": "1.12"
+        },
+        "minecraft:red_bed": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:orange_bed": {
+            "version": "1.12"
+        },
+        "minecraft:yellow_bed": {
+            "version": "1.12"
+        },
+        "minecraft:lime_bed": {
+            "version": "1.12"
+        },
+        "minecraft:green_bed": {
+            "version": "1.12"
+        },
+        "minecraft:cyan_bed": {
+            "version": "1.12"
+        },
+        "minecraft:light_blue_bed": {
+            "version": "1.12"
+        },
+        "minecraft:blue_bed": {
+            "version": "1.12"
+        },
+        "minecraft:purple_bed": {
+            "version": "1.12"
+        },
+        "minecraft:magenta_bed": {
+            "version": "1.12"
+        },
+        "minecraft:pink_bed": {
+            "version": "1.12"
+        },
+        "minecraft:white_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:light_gray_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:gray_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:black_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:brown_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:red_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:orange_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:yellow_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:lime_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:green_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:cyan_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:light_blue_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:blue_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:purple_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:magenta_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:pink_concrete_powder": {
+            "version": "1.12"
+        },
+        "minecraft:white_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:light_gray_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:gray_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:black_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:brown_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:red_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:orange_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:yellow_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:lime_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:green_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:cyan_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:light_blue_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:blue_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:purple_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:magenta_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:pink_concrete": {
+            "version": "1.12"
+        },
+        "minecraft:terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:white_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:light_gray_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:gray_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:black_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:brown_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:red_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:orange_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:yellow_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:lime_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:green_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:cyan_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:light_blue_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:blue_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:purple_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:magenta_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:pink_terracotta": {
+            "version": "1.6.1"
+        },
+        "minecraft:white_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:light_gray_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:gray_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:black_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:brown_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:red_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:orange_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:yellow_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:lime_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:green_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:cyan_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:light_blue_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:blue_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:purple_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:magenta_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:pink_glazed_terracotta": {
+            "version": "1.12"
+        },
+        "minecraft:glass": {
+            "version": "Classic"
+        },
+        "minecraft:white_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:light_gray_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:gray_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:black_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:brown_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:red_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:orange_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:yellow_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:lime_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:green_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:cyan_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:light_blue_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:blue_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:purple_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:magenta_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:pink_stained_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:tinted_glass": {
+            "version": "1.7.2"
+        },
+        "minecraft:glass_pane": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:white_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:light_gray_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:gray_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:black_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:brown_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:red_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:orange_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:yellow_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:lime_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:green_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:cyan_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:light_blue_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:blue_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:purple_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:magenta_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:pink_stained_glass_pane": {
+            "version": "1.7.2"
+        },
+        "minecraft:candle": {
+            "version": "1.17"
+        },
+        "minecraft:white_candle": {
+            "version": "1.17"
+        },
+        "minecraft:light_gray_candle": {
+            "version": "1.17"
+        },
+        "minecraft:gray_candle": {
+            "version": "1.17"
+        },
+        "minecraft:black_candle": {
+            "version": "1.17"
+        },
+        "minecraft:brown_candle": {
+            "version": "1.17"
+        },
+        "minecraft:red_candle": {
+            "version": "1.17"
+        },
+        "minecraft:orange_candle": {
+            "version": "1.17"
+        },
+        "minecraft:yellow_candle": {
+            "version": "1.17"
+        },
+        "minecraft:lime_candle": {
+            "version": "1.17"
+        },
+        "minecraft:green_candle": {
+            "version": "1.17"
+        },
+        "minecraft:cyan_candle": {
+            "version": "1.17"
+        },
+        "minecraft:light_blue_candle": {
+            "version": "1.17"
+        },
+        "minecraft:blue_candle": {
+            "version": "1.17"
+        },
+        "minecraft:purple_candle": {
+            "version": "1.17"
+        },
+        "minecraft:magenta_candle": {
+            "version": "1.17"
+        },
+        "minecraft:pink_candle": {
+            "version": "1.17"
+        },
+        "minecraft:white_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:light_gray_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:gray_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:black_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:brown_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:red_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:orange_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:yellow_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:lime_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:green_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:cyan_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:light_blue_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:blue_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:purple_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:magenta_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:pink_harness": {
+            "version": "1.21.6"
+        },
+        "minecraft:bundle": {
+            "version": "1.17"
+        },
+        "minecraft:white_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:light_gray_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:gray_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:black_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:brown_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:red_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:orange_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:yellow_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:lime_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:green_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:cyan_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:light_blue_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:blue_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:purple_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:magenta_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:pink_bundle": {
+            "version": "1.21.2"
+        },
+        "minecraft:shulker_box": {
+            "version": "1.13"
+        },
+        "minecraft:white_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:light_gray_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:gray_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:black_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:brown_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:red_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:orange_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:yellow_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:lime_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:green_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:cyan_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:light_blue_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:blue_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:purple_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:magenta_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:pink_shulker_box": {
+            "version": "1.11"
+        },
+        "minecraft:crafting_table": {
+            "version": "Indev"
+        },
+        "minecraft:furnace": {
+            "version": "Indev"
+        },
+        "minecraft:blast_furnace": {
+            "version": "1.14"
+        },
+        "minecraft:smoker": {
+            "version": "1.14"
+        },
+        "minecraft:chest": {
+            "version": "Indev"
+        },
+        "minecraft:trapped_chest": {
+            "version": "1.5"
+        },
+        "minecraft:ender_chest": {
+            "version": "1.3.1"
+        },
+        "minecraft:enchanting_table": {
+            "version": "1.0.0"
+        },
+        "minecraft:anvil": {
+            "version": "1.4.2"
+        },
+        "minecraft:chipped_anvil": {
+            "version": "1.4.2"
+        },
+        "minecraft:damaged_anvil": {
+            "version": "1.4.2"
+        },
+        "minecraft:grindstone": {
+            "version": "1.14"
+        },
+        "minecraft:stonecutter": {
+            "version": "1.14"
+        },
+        "minecraft:barrel": {
+            "version": "1.14"
+        },
+        "minecraft:composter": {
+            "version": "1.14"
+        },
+        "minecraft:loom": {
+            "version": "1.14"
+        },
+        "minecraft:cartography_table": {
+            "version": "1.14"
+        },
+        "minecraft:smithing_table": {
+            "version": "1.14"
+        },
+        "minecraft:fletching_table": {
+            "version": "1.14"
+        },
+        "minecraft:lectern": {
+            "version": "1.14"
+        },
+        "minecraft:jukebox": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:bell": {
+            "version": "1.14"
+        },
+        "minecraft:brewing_stand": {
+            "version": "1.0.0"
+        },
+        "minecraft:cauldron": {
+            "version": "1.0.0"
+        },
+        "minecraft:lodestone": {
+            "version": "1.16"
+        },
+        "minecraft:respawn_anchor": {
+            "version": "1.16"
+        },
+        "minecraft:bee_nest": {
+            "version": "1.15"
+        },
+        "minecraft:beehive": {
+            "version": "1.15"
+        },
+        "minecraft:trial_spawner": {
+            "version": "1.21"
+        },
+        "minecraft:vault": {
+            "version": "1.21"
+        },
+        "minecraft:trial_key": {
+            "version": "1.21"
+        },
+        "minecraft:ominous_trial_key": {
+            "version": "1.21"
+        },
+        "minecraft:heavy_core": {
+            "version": "1.21"
+        },
+        "minecraft:armor_stand": {
+            "version": "1.8"
+        },
+        "minecraft:flower_pot": {
+            "version": "1.4.2"
+        },
+        "minecraft:decorated_pot": {
+            "version": "1.20"
+        },
+        "minecraft:painting": {
+            "version": "Indev"
+        },
+        "minecraft:item_frame": {
+            "version": "1.4.2"
+        },
+        "minecraft:glow_item_frame": {
+            "version": "1.17"
+        },
+        "minecraft:ladder": {
+            "version": "Infdev"
+        },
+        "minecraft:scaffolding": {
+            "version": "1.14"
+        },
+        "minecraft:cobweb": {
+            "version": "Beta 1.5"
+        },
+        "minecraft:spawner": {
+            "version": "Infdev"
+        },
+        "minecraft:end_crystal": {
+            "version": "1.9"
+        },
+        "minecraft:nether_star": {
+            "version": "1.4.2"
+        },
+        "minecraft:beacon": {
+            "version": "1.4.2"
+        },
+        "minecraft:nautlius_shell": {
+            "version": "1.13"
+        },
+        "minecraft:heart_of_the_sea": {
+            "version": "1.13"
+        },
+        "minecraft:conduit": {
+            "version": "1.13"
+        },
+        "minecraft:end_rod": {
+            "version": "1.9"
+        },
+        "minecraft:torch": {
+            "version": "Indev"
+        },
+        "minecraft:copper_torch": {
+            "version": "1.21.9"
+        },
+        "minecraft:soul_torch": {
+            "version": "1.16"
+        },
+        "minecraft:lantern": {
+            "version": "1.14"
+        },
+        "minecraft:soul_lantern": {
+            "version": "1.16"
+        },
+        "minecraft:campfire": {
+            "version": "1.14"
+        },
+        "minecraft:soul_campfire": {
+            "version": "1.16"
+        },
+        "minecraft:redstone_torch": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:repeater": {
+            "version": "Beta 1.3"
+        },
+        "minecraft:comparator": {
+            "version": "1.5"
+        },
+        "minecraft:lever": {
+            "version": "Alpha 1.0.1"
+        },
+        "minecraft:hopper": {
+            "version": "1.5"
+        },
+        "minecraft:observer": {
+            "version": "1.11"
+        },
+        "minecraft:dispenser": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:dropper": {
+            "version": "1.5"
+        },
+        "minecraft:crafter": {
+            "version": "1.21"
+        },
+        "minecraft:piston": {
+            "version": "Beta 1.7"
+        },
+        "minecraft:sticky_piston": {
+            "version": "Beta 1.7"
+        },
+        "minecraft:note_block": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:tnt": {
+            "version": "Classic"
+        },
+        "minecraft:redstone_lamp": {
+            "version": "1.2.1"
+        },
+        "minecraft:daylight_detector": {
+            "version": "1.5"
+        },
+        "minecraft:tripwire_hook": {
+            "version": "1.3.1"
+        },
+        "minecraft:target": {
+            "version": "1.16"
+        },
+        "minecraft:rail": {
+            "version": "Infdev"
+        },
+        "minecraft:powered_rail": {
+            "version": "Beta 1.5"
+        },
+        "minecraft:detector_rail": {
+            "version": "Beta 1.5"
+        },
+        "minecraft:activator_rail": {
+            "version": "1.5"
+        },
+        "minecraft:minecart": {
+            "version": "Infdev"
+        },
+        "minecraft:chest_minecart": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:hopper_minecart": {
+            "version": "1.5"
+        },
+        "minecraft:furnace_minecart": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:tnt_minecart": {
+            "version": "1.5"
+        },
+        "minecraft:command_block_minecart": {
+            "version": "1.7.2"
+        },
+        "minecraft:sculk_vein": {
+            "version": "1.19"
+        },
+        "minecraft:sculk": {
+            "version": "1.19"
+        },
+        "minecraft:sculk_sensor": {
+            "version": "1.17"
+        },
+        "minecraft:calibrated_sculk_sensor": {
+            "version": "1.20"
+        },
+        "minecraft:sculk_catalyst": {
+            "version": "1.19"
+        },
+        "minecraft:sculk_shrieker": {
+            "version": "1.19"
+        },
+        "minecraft:red_mushroom": {
+            "version": "Classic"
+        },
+        "minecraft:brown_mushroom": {
+            "version": "Classic"
+        },
+        "minecraft:red_mushroom_block": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:brown_mushroom_block": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:mushroom_stem": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:oak_sapling": {
+            "version": "Pre-Classic"
+        },
+        "minecraft:birch_sapling": {
+            "version": "Beta 1.5"
+        },
+        "minecraft:spruce_sapling": {
+            "version": "Beta 1.5"
+        },
+        "minecraft:jungle_sapling": {
+            "version": "1.2.1"
+        },
+        "minecraft:dark_oak_sapling": {
+            "version": "1.7.2"
+        },
+        "minecraft:acacia_sapling": {
+            "version": "1.7.2"
+        },
+        "minecraft:mangrove_propagule": {
+            "version": "1.19"
+        },
+        "minecraft:cherry_sapling": {
+            "version": "1.20"
+        },
+        "minecraft:pale_oak_sapling": {
+            "version": "1.21.4"
+        },
+        "minecraft:oak_leaves": {
+            "version": "Classic"
+        },
+        "minecraft:birch_leaves": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:spruce_leaves": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:jungle_leaves": {
+            "version": "1.2.1"
+        },
+        "minecraft:dark_oak_leaves": {
+            "version": "1.7.2"
+        },
+        "minecraft:acacia_leaves": {
+            "version": "1.7.2"
+        },
+        "minecraft:mangrove_leaves": {
+            "version": "1.19"
+        },
+        "minecraft:cherry_leaves": {
+            "version": "1.20"
+        },
+        "minecraft:pale_oak_leaves": {
+            "version": "1.21.4"
+        },
+        "minecraft:azalea_leaves": {
+            "version": "1.17"
+        },
+        "minecraft:flowering_azalea_leaves": {
+            "version": "1.17"
+        },
+        "minecraft:leaf_litter": {
+            "version": "1.21.5"
+        },
+        "minecraft:dandelion": {
+            "version": "Classic"
+        },
+        "minecraft:poppy": {
+            "version": "Classic"
+        },
+        "minecraft:blue_orchid": {
+            "version": "1.7.2"
+        },
+        "minecraft:allium": {
+            "version": "1.7.2"
+        },
+        "minecraft:azure_bluet": {
+            "version": "1.7.2"
+        },
+        "minecraft:red_tulip": {
+            "version": "1.7.2"
+        },
+        "minecraft:orange_tulip": {
+            "version": "1.7.2"
+        },
+        "minecraft:white_tulip": {
+            "version": "1.7.2"
+        },
+        "minecraft:pink_tulip": {
+            "version": "1.7.2"
+        },
+        "minecraft:oxeye_daisy": {
+            "version": "1.7.2"
+        },
+        "minecraft:cornflower": {
+            "version": "1.14"
+        },
+        "minecraft:lily_of_the_valley": {
+            "version": "1.14"
+        },
+        "minecraft:open_eyeblossom": {
+            "version": "1.21.4"
+        },
+        "minecraft:closed_eyeblossom": {
+            "version": "1.21.4"
+        },
+        "minecraft:wither_rose": {
+            "version": "1.14"
+        },
+        "minecraft:golden_dandelion": {
+            "version": "26.1"
+        },
+        "minecraft:sunflower": {
+            "version": "1.7.2"
+        },
+        "minecraft:lilac": {
+            "version": "1.7.2"
+        },
+        "minecraft:rose_bush": {
+            "version": "1.7.2"
+        },
+        "minecraft:peony": {
+            "version": "1.7.2"
+        },
+        "minecraft:pink_petals": {
+            "version": "1.20"
+        },
+        "minecraft:wildflowers": {
+            "version": "1.21.5"
+        },
+        "minecraft:short_grass": {
+            "version": "Beta 1.6"
+        },
+        "minecraft:tall_grass": {
+            "version": "1.7.2"
+        },
+        "minecraft:fern": {
+            "version": "Beta 1.6"
+        },
+        "minecraft:large_fern": {
+            "version": "1.7.2"
+        },
+        "minecraft:bush": {
+            "version": "1.21.5"
+        },
+        "minecraft:firefly_bush": {
+            "version": "1.21.5"
+        },
+        "minecraft:short_dry_grass": {
+            "version": "1.21.5"
+        },
+        "minecraft:tall_dry_grass": {
+            "version": "1.21.5"
+        },
+        "minecraft:dead_bush": {
+            "version": "Beta 1.6"
+        },
+        "minecraft:cactus_flower": {
+            "version": "1.21.5"
+        },
+        "minecraft:cactus": {
+            "version": "Alpha 1.0.6"
+        },
+        "minecraft:sugar_cane": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:bamboo": {
+            "version": "1.14"
+        },
+        "minecraft:lily_pad": {
+            "version": "1.0.0"
+        },
+        "minecraft:vine": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:sweet_berries": {
+            "version": "1.14"
+        },
+        "minecraft:glow_berries": {
+            "version": "1.17"
+        },
+        "minecraft:moss_block": {
+            "version": "1.17"
+        },
+        "minecraft:moss_carpet": {
+            "version": "1.17"
+        },
+        "minecraft:small_dripleaf": {
+            "version": "1.17"
+        },
+        "minecraft:big_dripleaf": {
+            "version": "1.17"
+        },
+        "minecraft:azalea": {
+            "version": "1.17"
+        },
+        "minecraft:flowering_azalea": {
+            "version": "1.17"
+        },
+        "minecraft:spore_blossom": {
+            "version": "1.17"
+        },
+        "minecraft:pale_moss_block": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_moss_carpet": {
+            "version": "1.21.4"
+        },
+        "minecraft:pale_hanging_moss": {
+            "version": "1.21.4"
+        },
+        "minecraft:hanging_roots": {
+            "version": "1.17"
+        },
+        "minecraft:mangrove_roots": {
+            "version": "1.19"
+        },
+        "minecraft:muddy_mangrove_roots": {
+            "version": "1.19"
+        },
+        "minecraft:glow_lichen": {
+            "version": "1.17"
+        },
+        "minecraft:seagrass": {
+            "version": "1.13"
+        },
+        "minecraft:sea_pickle": {
+            "version": "1.13"
+        },
+        "minecraft:kelp": {
+            "version": "1.13"
+        },
+        "minecraft:dried_kelp": {
+            "version": "1.13"
+        },
+        "minecraft:dried_kelp_block": {
+            "version": "1.13"
+        },
+        "minecraft:tube_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:brain_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:bubble_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:fire_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:horn_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:dead_tube_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:dead_brain_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:dead_bubble_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:dead_fire_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:dead_horn_coral_block": {
+            "version": "1.13"
+        },
+        "minecraft:tube_coral": {
+            "version": "1.13"
+        },
+        "minecraft:brain_coral": {
+            "version": "1.13"
+        },
+        "minecraft:bubble_coral": {
+            "version": "1.13"
+        },
+        "minecraft:fire_coral": {
+            "version": "1.13"
+        },
+        "minecraft:horn_coral": {
+            "version": "1.13"
+        },
+        "minecraft:dead_tube_coral": {
+            "version": "1.13.1"
+        },
+        "minecraft:dead_brain_coral": {
+            "version": "1.13.1"
+        },
+        "minecraft:dead_bubble_coral": {
+            "version": "1.13.1"
+        },
+        "minecraft:dead_fire_coral": {
+            "version": "1.13.1"
+        },
+        "minecraft:dead_horn_coral": {
+            "version": "1.13.1"
+        },
+        "minecraft:tube_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:brain_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:bubble_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:fire_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:horn_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:dead_tube_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:dead_brain_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:dead_bubble_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:dead_fire_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:dead_horn_coral_fan": {
+            "version": "1.13"
+        },
+        "minecraft:torchflower_seeds": {
+            "version": "1.20"
+        },
+        "minecraft:torchflower": {
+            "version": "1.20"
+        },
+        "minecraft:pitcher_pod": {
+            "version": "1.20"
+        },
+        "minecraft:pitcher_plant": {
+            "version": "1.20"
+        },
+        "minecraft:wheat_seeds": {
+            "version": "Indev"
+        },
+        "minecraft:wheat": {
+            "version": "Indev"
+        },
+        "minecraft:hay_block": {
+            "version": "1.6.1"
+        },
+        "minecraft:beetroot_seeds": {
+            "version": "1.9"
+        },
+        "minecraft:beetroot": {
+            "version": "1.9"
+        },
+        "minecraft:carrot": {
+            "version": "1.4.2"
+        },
+        "minecraft:golden_carrot": {
+            "version": "1.4.2"
+        },
+        "minecraft:potato": {
+            "version": "1.4.2"
+        },
+        "minecraft:baked_potato": {
+            "version": "1.4.2"
+        },
+        "minecraft:poisonous_potato": {
+            "version": "1.4.2"
+        },
+        "minecraft:pumpkin_seeds": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:pumpkin": {
+            "version": "1.13"
+        },
+        "minecraft:carved_pumpkin": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:jack_o_lantern": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:melon_seeds": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:melon": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:melon_slice": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:glistering_melon_slice": {
+            "version": "1.0.0"
+        },
+        "minecraft:cocoa_beans": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:apple": {
+            "version": "Indev"
+        },
+        "minecraft:golden_apple": {
+            "version": "Infdev"
+        },
+        "minecraft:enchanted_golden_apple": {
+            "version": "1.3.1"
+        },
+        "minecraft:bread": {
+            "version": "Indev"
+        },
+        "minecraft:pumpkin_pie": {
+            "version": "1.4.2"
+        },
+        "minecraft:cookie": {
+            "version": "Beta 1.4"
+        },
+        "minecraft:cake": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:rabbit": {
+            "version": "1.8"
+        },
+        "minecraft:cooked_rabbit": {
+            "version": "1.8"
+        },
+        "minecraft:mutton": {
+            "version": "1.8"
+        },
+        "minecraft:cooked_mutton": {
+            "version": "1.8"
+        },
+        "minecraft:chicken": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:cooked_chicken": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:porkchop": {
+            "version": "Indev"
+        },
+        "minecraft:cooked_porkchop": {
+            "version": "Indev"
+        },
+        "minecraft:beef": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:cooked_beef": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:cod": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:cooked_cod": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:salmon": {
+            "version": "1.7.2"
+        },
+        "minecraft:cooked_salmon": {
+            "version": "1.7.2"
+        },
+        "minecraft:tropical_fish": {
+            "version": "1.7.2"
+        },
+        "minecraft:pufferfish": {
+            "version": "1.7.2"
+        },
+        "minecraft:bowl": {
+            "version": "Indev"
+        },
+        "minecraft:mushroom_stew": {
+            "version": "Indev"
+        },
+        "minecraft:rabbit_stew": {
+            "version": "1.8"
+        },
+        "minecraft:beetroot_soup": {
+            "version": "1.9"
+        },
+        "minecraft:suspicious_stew": {
+            "version": "1.14"
+        },
+        "minecraft:leather": {
+            "version": "Alpha 1.0.8"
+        },
+        "minecraft:rabbit_hide": {
+            "version": "1.8"
+        },
+        "minecraft:rabbit_foot": {
+            "version": "1.8"
+        },
+        "minecraft:ink_sac": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:glow_ink_sac": {
+            "version": "1.17"
+        },
+        "minecraft:feather": {
+            "version": "Indev"
+        },
+        "minecraft:egg": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:blue_egg": {
+            "version": "1.21.5"
+        },
+        "minecraft:brown_egg": {
+            "version": "1.21.5"
+        },
+        "minecraft:frogspawn": {
+            "version": "1.19"
+        },
+        "minecraft:armadillo_scute": {
+            "version": "1.20.5"
+        },
+        "minecraft:scute": {
+            "version": "1.13"
+        },
+        "minecraft:turtle_egg": {
+            "version": "1.13"
+        },
+        "minecraft:sniffer_egg": {
+            "version": "1.20"
+        },
+        "minecraft:honey_bottle": {
+            "version": "1.15"
+        },
+        "minecraft:honey_block": {
+            "version": "1.15"
+        },
+        "minecraft:honeycomb": {
+            "version": "1.15"
+        },
+        "minecraft:honeycomb_block": {
+            "version": "1.15"
+        },
+        "minecraft:slime_ball": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:slime_block": {
+            "version": "1.8"
+        },
+        "minecraft:pearlescent_froglight": {
+            "version": "1.19"
+        },
+        "minecraft:verdant_froglight": {
+            "version": "1.19"
+        },
+        "minecraft:ochre_froglight": {
+            "version": "1.19"
+        },
+        "minecraft:string": {
+            "version": "Indev"
+        },
+        "minecraft:rotten_flesh": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:arrow": {
+            "version": "Indev"
+        },
+        "minecraft:tipped_arrow": {
+            "version": "1.9"
+        },
+        "minecraft:spectral_arrow": {
+            "version": "1.9"
+        },
+        "minecraft:bone": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:bone_meal": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:bone_block": {
+            "version": "1.10"
+        },
+        "minecraft:gunpowder": {
+            "version": "Indev"
+        },
+        "minecraft:sugar": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:spider_eye": {
+            "version": "1.0.0"
+        },
+        "minecraft:fermented_spider_eye": {
+            "version": "1.0.0"
+        },
+        "minecraft:ender_pearl": {
+            "version": "Beta 1.8"
+        },
+        "minecraft:ender_eye": {
+            "version": "1.0.0"
+        },
+        "minecraft:shulker_shell": {
+            "version": "1.11"
+        },
+        "minecraft:blaze_rod": {
+            "version": "1.0.0"
+        },
+        "minecraft:blaze_powder": {
+            "version": "1.0.0"
+        },
+        "minecraft:magma_cream": {
+            "version": "1.0.0"
+        },
+        "minecraft:breeze_rod": {
+            "version": "1.21"
+        },
+        "minecraft:wind_charge": {
+            "version": "1.21"
+        },
+        "minecraft:ghast_tear": {
+            "version": "1.0.0"
+        },
+        "minecraft:dried_ghast": {
+            "version": "1.21.6"
+        },
+        "minecraft:phantom_membrane": {
+            "version": "1.13"
+        },
+        "minecraft:player_head": {
+            "version": "1.4.2"
+        },
+        "minecraft:wither_skeleton_skull": {
+            "version": "1.4.2"
+        },
+        "minecraft:zombie_head": {
+            "version": "1.4.2"
+        },
+        "minecraft:skeleton_skull": {
+            "version": "1.4.2"
+        },
+        "minecraft:creeper_head": {
+            "version": "1.4.2"
+        },
+        "minecraft:piglin_head": {
+            "version": "1.20"
+        },
+        "minecraft:dragon_head": {
+            "version": "1.9"
+        },
+        "minecraft:dragon_egg": {
+            "version": "1.0.0"
+        },
+        "minecraft:goat_horn": {
+            "version": "1.19"
+        },
+        "minecraft:music_disc_13": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:music_disc_cat": {
+            "version": "Alpha 1.0.14"
+        },
+        "minecraft:music_disc_blocks": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_chirp": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_far": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_mall": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_mellohi": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_stal": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_strad": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_ward": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_11": {
+            "version": "1.0.0"
+        },
+        "minecraft:music_disc_wait": {
+            "version": "1.4.3"
+        },
+        "minecraft:music_disc_pigstep": {
+            "version": "1.16"
+        },
+        "minecraft:music_disc_otherside": {
+            "version": "1.18"
+        },
+        "minecraft:music_disc_5": {
+            "version": "1.19"
+        },
+        "minecraft:music_disc_relic": {
+            "version": "1.20"
+        },
+        "minecraft:music_disc_precipice": {
+            "version": "1.21"
+        },
+        "minecraft:music_disc_creator": {
+            "version": "1.21"
+        },
+        "minecraft:music_disc_creator_music_box": {
+            "version": "1.21"
+        },
+        "minecraft:music_disc_tears": {
+            "version": "1.21.6"
+        },
+        "minecraft:music_disc_lava_chicken": {
+            "version": "1.21.7"
+        },
+        "minecraft:disc_fragment_5": {
+            "version": "1.19"
+        },
+        "minecraft:echo_shard": {
+            "version": "1.19"
+        },
+        "minecraft:stick": {
+            "version": "Indev"
+        },
+        "minecraft:charcoal": {
+            "version": "Beta 1.2"
+        },
+        "minecraft:fire_charge": {
+            "version": "1.2.1"
+        },
+        "minecraft:paper": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:book": {
+            "version": "Alpha 1.0.11"
+        },
+        "minecraft:enchanted_book": {
+            "version": "1.4.6"
+        },
+        "minecraft:bookshelf": {
+            "version": "Classic"
+        },
+        "minecraft:chiseled_bookshelf": {
+            "version": "1.20"
+        },
+        "minecraft:writable_book": {
+            "version": "1.3.1"
+        },
+        "minecraft:written_book": {
+            "version": "1.3.1"
+        },
+        "minecraft:knowledge_book": {
+            "version": "1.12"
+        },
+        "minecraft:map": {
+            "version": "1.4.2"
+        },
+        "minecraft:filled_map": {
+            "version": "Beta 1.6"
+        },
+        "minecraft:mojang_banner_pattern": {
+            "version": "1.14"
+        },
+        "minecraft:skull_banner_pattern": {
+            "version": "1.14"
+        },
+        "minecraft:creeper_banner_pattern": {
+            "version": "1.14"
+        },
+        "minecraft:flower_banner_pattern": {
+            "version": "1.14"
+        },
+        "minecraft:globe_banner_pattern": {
+            "version": "1.14"
+        },
+        "minecraft:bordure_indented_banner_pattern": {
+            "version": "1.21.2"
+        },
+        "minecraft:field_masoned_banner_pattern": {
+            "version": "1.21.2"
+        },
+        "minecraft:piglin_banner_pattern": {
+            "version": "1.16"
+        },
+        "minecraft:flow_banner_pattern": {
+            "version": "1.21"
+        },
+        "minecraft:guster_banner_pattern": {
+            "version": "1.21"
+        },
+        "minecraft:angler_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:archer_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:arms_up_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:blade_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:brewer_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:burn_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:danger_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:explorer_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:friend_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:flow_pottery_sherd": {
+            "version": "1.21"
+        },
+        "minecraft:guster_pottery_sherd": {
+            "version": "1.21"
+        },
+        "minecraft:heart_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:heartbreak_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:howl_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:miner_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:mourner_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:plenty_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:prize_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:scrape_pottery_sherd": {
+            "version": "1.21"
+        },
+        "minecraft:sheaf_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:shelter_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:skull_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:snort_pottery_sherd": {
+            "version": "1.20"
+        },
+        "minecraft:netherite_upgrade_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:bolt_armor_trim_smithing_template": {
+            "version": "1.21"
+        },
+        "minecraft:coast_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:dune_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:eye_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:flow_armor_trim_smithing_template": {
+            "version": "1.21"
+        },
+        "minecraft:host_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:raiser_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:rib_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:sentry_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:shaper_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:silence_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:snout_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:spire_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:tide_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:vex_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:ward_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:wayfinder_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:wild_armor_trim_smithing_template": {
+            "version": "1.20"
+        },
+        "minecraft:firework_star": {
+            "version": "1.4.6"
+        },
+        "minecraft:firework_rocket": {
+            "version": "1.4.6"
+        },
+        "minecraft:glass_bottle": {
+            "version": "1.0.0"
+        },
+        "minecraft:experience_bottle": {
+            "version": "1.2.1"
+        },
+        "minecraft:ominous_bottle": {
+            "version": "1.21"
+        },
+        "minecraft:dragon_breath": {
+            "version": "1.9"
+        },
+        "minecraft:potion": {
+            "version": "1.9"
+        },
+        "minecraft:splash_potion": {
+            "version": "1.9"
+        },
+        "minecraft:lingering_potion": {
+            "version": "1.9"
+        },
+        "minecraft:saddle": {
+            "version": "Infdev"
+        },
+        "minecraft:leather_horse_armor": {
+            "version": "1.14"
+        },
+        "minecraft:copper_horse_armor": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_horse_armor": {
+            "version": "1.6.1"
+        },
+        "minecraft:gold_horse_armor": {
+            "version": "1.6.1"
+        },
+        "minecraft:diamond_horse_armor": {
+            "version": "1.6.1"
+        },
+        "minecraft:netherite_horse_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:copper_nautilus_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:iron_nautilus_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:golden_nautilus_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:diamond_nautilus_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:netherite_nautilus_armor": {
+            "version": "1.21.11"
+        },
+        "minecraft:wolf_armor": {
+            "version": "1.20.5"
+        },
+        "minecraft:bucket": {
+            "version": "Infdev"
+        },
+        "minecraft:water_bucket": {
+            "version": "Infdev"
+        },
+        "minecraft:cod_bucket": {
+            "version": "1.13"
+        },
+        "minecraft:salmon_bucket": {
+            "version": "1.13"
+        },
+        "minecraft:tropical_fish_bucket": {
+            "version": "1.13"
+        },
+        "minecraft:pufferfish_bucket": {
+            "version": "1.13"
+        },
+        "minecraft:axolotl_bucket": {
+            "version": "1.17"
+        },
+        "minecraft:tadpole_bucket": {
+            "version": "1.19"
+        },
+        "minecraft:lava_bucket": {
+            "version": "Infdev"
+        },
+        "minecraft:milk_bucket": {
+            "version": "Alpha 1.0.8"
+        },
+        "minecraft:powder_snow_bucket": {
+            "version": "1.17"
+        },
+        "minecraft:flint_and_steel": {
+            "version": "Indev"
+        },
+        "minecraft:shears": {
+            "version": "Beta 1.7"
+        },
+        "minecraft:compass": {
+            "version": "Alpha 1.1.0"
+        },
+        "minecraft:recovery_compass": {
+            "version": "1.19"
+        },
+        "minecraft:clock": {
+            "version": "Alpha 1.2.0"
+        },
+        "minecraft:spyglass": {
+            "version": "1.17"
+        },
+        "minecraft:brush": {
+            "version": "1.20"
+        },
+        "minecraft:lead": {
+            "version": "1.6.1"
+        },
+        "minecraft:name_tag": {
+            "version": "1.6.1"
+        },
+        "minecraft:totem_of_undying": {
+            "version": "1.11"
+        },
+        "minecraft:fishing_rod": {
+            "version": "Alpha 1.1.1"
+        },
+        "minecraft:carrot_on_a_stick": {
+            "version": "1.4.2"
+        },
+        "minecraft:warped_fungus_on_a_stick": {
+            "version": "1.16"
+        },
+        "minecraft:bow": {
+            "version": "Indev"
+        },
+        "minecraft:crossbow": {
+            "version": "1.14"
+        },
+        "minecraft:shield": {
+            "version": "1.9"
+        },
+        "minecraft:mace": {
+            "version": "1.21"
+        },
+        "minecraft:trident": {
+            "version": "1.13"
+        },
+        "minecraft:turtle_helmet": {
+            "version": "1.13"
+        },
+        "minecraft:elytra": {
+            "version": "1.9"
+        },
+        "minecraft:wooden_sword": {
+            "version": "Indev"
+        },
+        "minecraft:stone_sword": {
+            "version": "Indev"
+        },
+        "minecraft:copper_sword": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_sword": {
+            "version": "Indev"
+        },
+        "minecraft:golden_sword": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_sword": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_sword": {
+            "version": "1.16"
+        },
+        "minecraft:wooden_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:stone_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:copper_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:iron_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:golden_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:diamond_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:netherite_spear": {
+            "version": "1.21.11"
+        },
+        "minecraft:wooden_pickaxe": {
+            "version": "Indev"
+        },
+        "minecraft:stone_pickaxe": {
+            "version": "Indev"
+        },
+        "minecraft:copper_pickaxe": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_pickaxe": {
+            "version": "Indev"
+        },
+        "minecraft:golden_pickaxe": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_pickaxe": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_pickaxe": {
+            "version": "1.16"
+        },
+        "minecraft:wooden_axe": {
+            "version": "Indev"
+        },
+        "minecraft:stone_axe": {
+            "version": "Indev"
+        },
+        "minecraft:copper_axe": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_axe": {
+            "version": "Indev"
+        },
+        "minecraft:golden_axe": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_axe": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_axe": {
+            "version": "1.16"
+        },
+        "minecraft:wooden_shovel": {
+            "version": "Indev"
+        },
+        "minecraft:stone_shovel": {
+            "version": "Indev"
+        },
+        "minecraft:copper_shovel": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_shovel": {
+            "version": "Indev"
+        },
+        "minecraft:golden_shovel": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_shovel": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_shovel": {
+            "version": "1.16"
+        },
+        "minecraft:wooden_hoe": {
+            "version": "Indev"
+        },
+        "minecraft:stone_hoe": {
+            "version": "Indev"
+        },
+        "minecraft:copper_hoe": {
+            "version": "1.21.9"
+        },
+        "minecraft:iron_hoe": {
+            "version": "Indev"
+        },
+        "minecraft:golden_hoe": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_hoe": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_hoe": {
+            "version": "1.16"
+        },
+        "minecraft:leather_helmet": {
+            "version": "Indev"
+        },
+        "minecraft:copper_helmet": {
+            "version": "1.21.9"
+        },
+        "minecraft:chainmail_helmet": {
+            "version": "Indev"
+        },
+        "minecraft:iron_helmet": {
+            "version": "Indev"
+        },
+        "minecraft:golden_helmet": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_helmet": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_helmet": {
+            "version": "1.16"
+        },
+        "minecraft:leather_chestplate": {
+            "version": "Indev"
+        },
+        "minecraft:copper_chestplate": {
+            "version": "1.21.9"
+        },
+        "minecraft:chainmail_chestplate": {
+            "version": "Indev"
+        },
+        "minecraft:iron_chestplate": {
+            "version": "Indev"
+        },
+        "minecraft:golden_chestplate": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_chestplate": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_chestplate": {
+            "version": "1.16"
+        },
+        "minecraft:leather_leggings": {
+            "version": "Indev"
+        },
+        "minecraft:copper_leggings": {
+            "version": "1.21.9"
+        },
+        "minecraft:chainmail_leggings": {
+            "version": "Indev"
+        },
+        "minecraft:iron_leggings": {
+            "version": "Indev"
+        },
+        "minecraft:golden_leggings": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_leggings": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_leggings": {
+            "version": "1.16"
+        },
+        "minecraft:leather_boots": {
+            "version": "Indev"
+        },
+        "minecraft:copper_boots": {
+            "version": "1.21.9"
+        },
+        "minecraft:chainmail_boots": {
+            "version": "Indev"
+        },
+        "minecraft:iron_boots": {
+            "version": "Indev"
+        },
+        "minecraft:golden_boots": {
+            "version": "Indev"
+        },
+        "minecraft:diamond_boots": {
+            "version": "Indev"
+        },
+        "minecraft:netherite_boots": {
+            "version": "1.16"
+        },
+        "minecraft:debug_stick": {
+            "version": "1.13"
+        },
+        "minecraft:command_block": {
+            "version": "1.4.2"
+        },
+        "minecraft:chain_command_block": {
+            "version": "1.9"
+        },
+        "minecraft:repeating_command_block": {
+            "version": "1.9"
+        },
+        "minecraft:test_instance_block": {
+            "version": "1.21.5"
+        },
+        "minecraft:test_block": {
+            "version": "1.21.5"
+        },
+        "minecraft:structure_block": {
+            "version": "1.9"
+        },
+        "minecraft:jigsaw": {
+            "version": "1.14"
+        },
+        "minecraft:structure_void": {
+            "version": "1.10"
+        },
+        "minecraft:barrier": {
+            "version": "1.8"
+        },
+        "minecraft:light": {
+            "version": "1.17"
+        },
+        "minecraft:allay_spawn_egg": {
+            "version": "1.19"
+        },
+        "minecraft:armadillo_spawn_egg": {
+            "version": "1.20.5"
+        },
+        "minecraft:axolotl_spawn_egg": {
+            "version": "1.17"
+        },
+        "minecraft:bat_spawn_egg": {
+            "version": "1.4.2"
+        },
+        "minecraft:bee_spawn_egg": {
+            "version": "1.15"
+        },
+        "minecraft:blaze_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:bogged_spawn_egg": {
+            "version": "1.21"
+        },
+        "minecraft:breeze_spawn_egg": {
+            "version": "1.21"
+        },
+        "minecraft:camel_spawn_egg": {
+            "version": "1.20"
+        },
+        "minecraft:camel_husk_spawn_egg": {
+            "version": "1.21.11"
+        },
+        "minecraft:cat_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:cave_spider_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:chicken_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:cod_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:copper_golem_spawn_egg": {
+            "version": "1.21.9"
+        },
+        "minecraft:cow_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:creaking_spawn_egg": {
+            "version": "1.21.4"
+        },
+        "minecraft:creeper_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:dolphin_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:donkey_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:drowned_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:elder_guardian_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:ender_dragon_spawn_egg": {
+            "version": "1.19.3"
+        },
+        "minecraft:enderman_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:endermite_spawn_egg": {
+            "version": "1.8"
+        },
+        "minecraft:evoker_spawn_egg": {
+            "version": "1.11"
+        },
+        "minecraft:fox_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:frog_spawn_egg": {
+            "version": "1.19"
+        },
+        "minecraft:ghast_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:glow_squid_spawn_egg": {
+            "version": "1.17"
+        },
+        "minecraft:goat_spawn_egg": {
+            "version": "1.17"
+        },
+        "minecraft:guardian_spawn_egg": {
+            "version": "1.8"
+        },
+        "minecraft:happy_ghast_spawn_egg": {
+            "version": "1.21.6"
+        },
+        "minecraft:hoglin_spawn_egg": {
+            "version": "1.16"
+        },
+        "minecraft:horse_spawn_egg": {
+            "version": "1.6.1"
+        },
+        "minecraft:husk_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:iron_golem_spawn_egg": {
+            "version": "1.19.3"
+        },
+        "minecraft:llama_spawn_egg": {
+            "version": "1.11"
+        },
+        "minecraft:magma_cube_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:mooshroom_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:mule_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:nautilus_spawn_egg": {
+            "version": "1.21.11"
+        },
+        "minecraft:ocelot_spawn_egg": {
+            "version": "1.2.1"
+        },
+        "minecraft:panda_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:parched_spawn_egg": {
+            "version": "1.21.11"
+        },
+        "minecraft:parrot_spawn_egg": {
+            "version": "1.12"
+        },
+        "minecraft:phantom_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:pig_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:piglin_spawn_egg": {
+            "version": "1.16"
+        },
+        "minecraft:piglin_brute_spawn_egg": {
+            "version": "1.16.2"
+        },
+        "minecraft:pillager_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:polar_bear_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:pufferfish_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:rabbit_spawn_egg": {
+            "version": "1.8"
+        },
+        "minecraft:ravager_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:salmon_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:sheep_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:shulker_spawn_egg": {
+            "version": "1.9"
+        },
+        "minecraft:silverfish_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:skeleton_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:skeleton_horse_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:slime_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:sniffer_spawn_egg": {
+            "version": "1.20"
+        },
+        "minecraft:snow_golem_spawn_egg": {
+            "version": "1.19.3"
+        },
+        "minecraft:spider_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:squid_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:stray_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:strider_spawn_egg": {
+            "version": "1.16"
+        },
+        "minecraft:tadpole_spawn_egg": {
+            "version": "1.19"
+        },
+        "minecraft:trader_llama_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:tropical_fish_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:turtle_spawn_egg": {
+            "version": "1.13"
+        },
+        "minecraft:vex_spawn_egg": {
+            "version": "1.11"
+        },
+        "minecraft:villager_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:vindicator_spawn_egg": {
+            "version": "1.11"
+        },
+        "minecraft:wandering_trader_spawn_egg": {
+            "version": "1.14"
+        },
+        "minecraft:warden_spawn_egg": {
+            "version": "1.19"
+        },
+        "minecraft:witch_spawn_egg": {
+            "version": "1.4.2"
+        },
+        "minecraft:wither_spawn_egg": {
+            "version": "1.19.3"
+        },
+        "minecraft:wither_skeleton_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:wolf_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:zoglin_spawn_egg": {
+            "version": "1.16"
+        },
+        "minecraft:zombie_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:zombie_horse_spawn_egg": {
+            "version": "1.10"
+        },
+        "minecraft:zombie_nautilus_spawn_egg": {
+            "version": "1.21.11"
+        },
+        "minecraft:zombie_villager_spawn_egg": {
+            "version": "1.11"
+        },
+        "minecraft:zombified_piglin_spawn_egg": {
+            "version": "1.1"
+        },
+        "minecraft:chain": {
+            "version": "1.16"
+        }
+    }
+}

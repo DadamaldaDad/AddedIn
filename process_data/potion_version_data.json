@@ -1,0 +1,286 @@
+{
+    "values": {
+        "minecraft:water": {
+            "version": "1.0.0",
+            "splash_version": "1.9",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:awkward": {
+            "version": "1.0.0",
+            "splash_version": "1.9",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:mundane": {
+            "version": "1.0.0",
+            "splash_version": "1.9",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:thick": {
+            "version": "1.0.0",
+            "splash_version": "1.9",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:healing": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_healing": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:regeneration": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_regeneration": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_regeneration": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strength": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_strength": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_strength": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:swiftness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_swiftness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_swiftness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:leaping": {
+            "version": "1.8",
+            "splash_version": "1.8",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_leaping": {
+            "version": "1.8.1",
+            "splash_version": "1.8.1",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_leaping": {
+            "version": "1.8",
+            "splash_version": "1.8",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:luck": {
+            "version": "1.9",
+            "splash_version": "1.9",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:night_vision": {
+            "version": "1.4.2",
+            "splash_version": "1.4.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_night_vision": {
+            "version": "1.4.2",
+            "splash_version": "1.4.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:invisibility": {
+            "version": "1.4.2",
+            "splash_version": "1.4.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_invisibility": {
+            "version": "1.4.2",
+            "splash_version": "1.4.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:water_breathing": {
+            "version": "1.7.2",
+            "splash_version": "1.7.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_water_breathing": {
+            "version": "1.7.2",
+            "splash_version": "1.7.2",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:fire_resistance": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_fire_resistance": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:slow_falling": {
+            "version": "1.13",
+            "splash_version": "1.13",
+            "lingering_version": "1.13",
+            "arrow_version": "1.13"
+        },
+        "minecraft:long_slow_falling": {
+            "version": "1.13",
+            "splash_version": "1.13",
+            "lingering_version": "1.13",
+            "arrow_version": "1.13"
+        },
+        "minecraft:turtle_master": {
+            "version": "1.13",
+            "splash_version": "1.13",
+            "lingering_version": "1.13",
+            "arrow_version": "1.13"
+        },
+        "minecraft:long_turtle_master": {
+            "version": "1.13",
+            "splash_version": "1.13",
+            "lingering_version": "1.13",
+            "arrow_version": "1.13"
+        },
+        "minecraft:strong_turtle_master": {
+            "version": "1.13",
+            "splash_version": "1.13",
+            "lingering_version": "1.13",
+            "arrow_version": "1.13"
+        },
+        "minecraft:harming": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_harming": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:poison": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_poison": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_poison": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:weakness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_weakness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:slowness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:long_slowness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:strong_slowness": {
+            "version": "1.0.0",
+            "splash_version": "1.0.0",
+            "lingering_version": "1.9",
+            "arrow_version": "1.9"
+        },
+        "minecraft:infestated": {
+            "version": "???",
+            "splash_version": "???",
+            "lingering_version": "???",
+            "arrow_version": "1.21"
+        },
+        "minecraft:oozing": {
+            "version": "1.21",
+            "splash_version": "1.21",
+            "lingering_version": "1.21",
+            "arrow_version": "1.21"
+        },
+        "minecraft:weaving": {
+            "version": "1.21",
+            "splash_version": "1.21",
+            "lingering_version": "1.21",
+            "arrow_version": "1.21"
+        },
+        "minecraft:wind_charged": {
+            "version": "1.21",
+            "splash_version": "1.21",
+            "lingering_version": "1.21",
+            "arrow_version": "1.21"
+        },
+        "minecraft:infested": {
+            "version": "1.21",
+            "splash_version": "1.21",
+            "lingering_version": "1.21",
+            "arrow_version": "???"
+        }
+    }
+}
