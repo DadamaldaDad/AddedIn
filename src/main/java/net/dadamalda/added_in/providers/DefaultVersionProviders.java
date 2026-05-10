@@ -5,9 +5,15 @@ import net.dadamalda.added_in.datamap.ItemVersionData;
 import net.dadamalda.added_in.datamap.PotionVersionData;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.util.Unit;
+import net.minecraft.world.entity.raid.Raid;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionContents;
+import net.minecraft.world.level.block.entity.BannerPatternLayers;
+import net.minecraft.world.level.block.entity.BannerPatterns;
 
 import java.util.Optional;
 
@@ -39,6 +45,13 @@ public class DefaultVersionProviders {
             } else {
                 return VersionResult.pass();
             }
+        });
+
+        VersionProviders.register(itemStack -> {
+            if(!itemStack.is(Items.WHITE_BANNER)) return VersionResult.pass();
+            Unit dataComponent = itemStack.getComponents().get(DataComponents.HIDE_ADDITIONAL_TOOLTIP);
+            if(dataComponent == null) return VersionResult.pass();
+            return VersionResult.success("1.14");
         });
     }
 }
