@@ -1,5 +1,6 @@
 package net.dadamalda.added_in;
 
+import net.dadamalda.added_in.data_loading.VersionDataReloadListener;
 import net.dadamalda.added_in.providers.DefaultVersionProviders;
 import net.dadamalda.added_in.providers.VersionProviders;
 import net.dadamalda.added_in.providers.VersionResult;
@@ -12,6 +13,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.util.TriState;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
@@ -31,14 +33,13 @@ public class Added_in {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        modEventBus.addListener(this::registerDataMapTypes);
+        modEventBus.addListener(this::registerClientReloadListeners);
 
         DefaultVersionProviders.register();
     }
 
-    public void registerDataMapTypes(RegisterDataMapTypesEvent event) {
-        event.register(ModDataMaps.ITEM_VERSION_DATA);
-        event.register(ModDataMaps.POTION_VERSION_DATA);
+    public void registerClientReloadListeners(RegisterClientReloadListenersEvent event) {
+        event.registerReloadListener(new VersionDataReloadListener());
     }
 
     @SubscribeEvent(priority = EventPriority.LOWEST)

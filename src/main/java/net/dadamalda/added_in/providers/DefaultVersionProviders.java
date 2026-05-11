@@ -1,27 +1,25 @@
 package net.dadamalda.added_in.providers;
 
-import net.dadamalda.added_in.ModDataMaps;
-import net.dadamalda.added_in.datamap.ItemVersionData;
-import net.dadamalda.added_in.datamap.PotionVersionData;
+import net.dadamalda.added_in.data_loading.VersionDataHolder;
+import net.dadamalda.added_in.records.ItemVersionData;
+import net.dadamalda.added_in.records.PotionVersionData;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Unit;
-import net.minecraft.world.entity.raid.Raid;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionContents;
-import net.minecraft.world.level.block.entity.BannerPatternLayers;
-import net.minecraft.world.level.block.entity.BannerPatterns;
 
+import java.util.Objects;
 import java.util.Optional;
 
 public class DefaultVersionProviders {
     public static void register() {
         VersionProviders.register((itemStack -> {
-            Holder<Item> holder = itemStack.getItemHolder();
-            ItemVersionData data = holder.getData(ModDataMaps.ITEM_VERSION_DATA);
+            ResourceLocation item_id = BuiltInRegistries.ITEM.getKey(itemStack.getItem());
+            ItemVersionData data = VersionDataHolder.ITEMS.get(item_id);
             if(data == null) return VersionResult.pass();
             return VersionResult.success(data.version());
         }));
@@ -31,19 +29,19 @@ public class DefaultVersionProviders {
             if(potionContents == null) return VersionResult.pass();
             Optional<Holder<Potion>> optionalPotionHolder = potionContents.potion();
             if(optionalPotionHolder.isEmpty()) return VersionResult.none();
-            Holder<Potion> potionHolder = optionalPotionHolder.get();
-            PotionVersionData data = potionHolder.getData(ModDataMaps.POTION_VERSION_DATA);
+            ResourceLocation potion_id = BuiltInRegistries.POTION.getKey(optionalPotionHolder.get().value());
+            PotionVersionData data = VersionDataHolder.POTIONS.get(potion_id);
             if(data == null) return VersionResult.none();
-            if(itemStack.is(Items.POTION)) {
+            if(itemStack.is(Items.POTION) && !Objects.equals(data.version(), "???")) {
                 return VersionResult.success(data.version());
-            } else if(itemStack.is(Items.SPLASH_POTION)) {
+            } else if(itemStack.is(Items.SPLASH_POTION) && !Objects.equals(data.splash_version(), "???")) {
                 return VersionResult.success(data.splash_version());
-            } else if(itemStack.is(Items.LINGERING_POTION)) {
+            } else if(itemStack.is(Items.LINGERING_POTION) && !Objects.equals(data.lingering_version(), "???")) {
                 return VersionResult.success(data.lingering_version());
-            } else if(itemStack.is(Items.TIPPED_ARROW)) {
+            } else if(itemStack.is(Items.TIPPED_ARROW) && !Objects.equals(data.arrow_version(), "???")) {
                 return VersionResult.success(data.arrow_version());
             } else {
-                return VersionResult.pass();
+                return VersionResult.none();
             }
         });
 

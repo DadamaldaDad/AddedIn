@@ -1,0 +1,10 @@
+{
+  "items": {
+    "minecraft:kelp": "1.13"
+  },
+  "potions": {
+    "minecraft:night_vision": {
+      "splash_potion": "1.4.2"
+    }
+  }
+}
