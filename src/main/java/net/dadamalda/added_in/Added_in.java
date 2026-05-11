@@ -17,7 +17,6 @@ import net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.util.TriState;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
-import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Added_in.MODID)
