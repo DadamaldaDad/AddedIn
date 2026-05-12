@@ -30,19 +30,15 @@ def potion_id(row) -> str:
     id = row["id"]
     match = potion_regex.match(id)
     if match is None: return ""
+    if match.groups()[1] == "minecraft:infestated":
+        return "minecraft:infested"
     return match.groups()[1]
 
 def potion_type(row) -> str:
     id = row["id"]
     match = potion_regex.match(id)
     if match is None: return ""
-    return {
-        "potion": "version",
-        "splash_potion": "splash_version",
-        "lingering_potion": "lingering_version",
-        "lingering__potion": "lingering_version",
-        "tipped_arrow": "arrow_version"
-    }[match.groups()[0]]
+    return match.groups()[0]
 
 
 manual_inserts: list[tuple[str, str]] = [
@@ -51,7 +47,7 @@ manual_inserts: list[tuple[str, str]] = [
 
 
 def run():
-    full_df = pd.read_csv("./input.csv", skiprows=4, header=None)
+    full_df = pd.read_csv("./items.csv", skiprows=4, header=None)
     assert isinstance(full_df, pd.DataFrame)
     df_unfiltered: pd.DataFrame = full_df.iloc[:, [2, 3]]
     df_unfiltered.columns = ["id", "version"]
@@ -62,12 +58,10 @@ def run():
     df["id"] = df["id"].apply(namespace_id)
     prepared_manual_inserts = [{"id": namespace_id(row[0]), "version": row[1]} for row in manual_inserts]
     df = pd.concat([df, pd.DataFrame(prepared_manual_inserts)], ignore_index=True)
-    result: dict[str, Any] = {
-        row["id"]: {"version": row["version"]}
+    items: dict[str, str] = {
+        row["id"]: row["version"]
         for index, row in df.iterrows()
     }
-    result_json = json.dumps({"values": result}, indent=4)
-    Path("./version_data.json").write_text(result_json)
     print("Items done")
     potion_mask = df_unfiltered["id"].str.contains(r"\[potion_contents=\{")
     potion_df: pd.DataFrame = df_unfiltered[potion_mask]
@@ -76,16 +70,16 @@ def run():
     potions: dict[str, dict[str, str]] = {}
     for index, row in potion_df.iterrows():
         if row["potion_id"] not in potions.keys():
-            potions[row["potion_id"]] = {
-                "version": "???",
-                "splash_version": "???",
-                "lingering_version": "???",
-                "arrow_version": "???"
-            }
+            potions[row["potion_id"]] = {}
         potions[row["potion_id"]][row["potion_type"]] = row["version"]
     potions_json = json.dumps({"values": potions}, indent=4)
     Path("./potion_version_data.json").write_text(potions_json)
     print("Potions done")
+    final_json = json.dumps({
+        "items": items,
+        "potions": potions
+    }, indent=4)
+    Path("../src/main/resources/assets/added_in/version_data/minecraft.json").write_text(final_json)
     print("Done, bye.")
 
 # Press the green button in the gutter to run the script.
