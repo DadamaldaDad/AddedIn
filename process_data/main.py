@@ -52,7 +52,7 @@ def run():
     df_unfiltered: pd.DataFrame = full_df.iloc[:, [2, 3]]
     df_unfiltered.columns = ["id", "version"]
     df_unfiltered["version"] = df_unfiltered["version"].apply(clean_version)
-    print("Loaded data")
+
     mask = ~df_unfiltered["id"].str.contains(r"\[", regex=True)
     df: pd.DataFrame = df_unfiltered[mask]
     df["id"] = df["id"].apply(namespace_id)
@@ -72,12 +72,38 @@ def run():
         if row["potion_id"] not in potions.keys():
             potions[row["potion_id"]] = {}
         potions[row["potion_id"]][row["potion_type"]] = row["version"]
-    potions_json = json.dumps({"values": potions}, indent=4)
-    Path("./potion_version_data.json").write_text(potions_json)
     print("Potions done")
+
+    full_enchantments_df = pd.read_csv("./enchantments.csv", skiprows=4, header=None)
+    assert isinstance(full_enchantments_df, pd.DataFrame)
+    enchantments_df: pd.DataFrame = full_enchantments_df.iloc[:, [1, 2]]
+    enchantments_df.columns = ["id", "version"]
+    print(enchantments_df.head())
+    enchantments_df["version"] = enchantments_df["version"].apply(clean_version)
+    enchantments_df["id"] = enchantments_df["id"].apply(namespace_id)
+    enchantments: dict[str, str] = {
+        row["id"]: row["version"]
+        for index, row in enchantments_df.iterrows()
+    }
+    print("Enchantments done")
+
+    full_paintings_df = pd.read_csv("./paintings.csv", skiprows=4, header=None)
+    assert isinstance(full_paintings_df, pd.DataFrame)
+    paintings_df: pd.DataFrame = full_paintings_df.iloc[:, [2, 3]]
+    paintings_df.columns = ["id", "version"]
+    paintings_df["version"] = paintings_df["version"].apply(clean_version)
+    paintings_df["id"] = paintings_df["id"].apply(namespace_id)
+    paintings: dict[str, str] = {
+        row["id"]: row["version"]
+        for index, row in paintings_df.iterrows()
+    }
+    print("Paintings done")
+
     final_json = json.dumps({
         "items": items,
-        "potions": potions
+        "potions": potions,
+        "enchantments": enchantments,
+        "paintings": paintings
     }, indent=4)
     Path("../src/main/resources/assets/added_in/version_data/minecraft.json").write_text(final_json)
     print("Done, bye.")
