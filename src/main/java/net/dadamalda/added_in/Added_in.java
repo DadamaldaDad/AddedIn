@@ -46,6 +46,6 @@ public class Added_in {
     public void onItemTooltip(ItemTooltipEvent event) {
         VersionResult result = VersionProviders.getItemVersion(event.getItemStack());
         if(result.state() == TriState.FALSE) return;
-        event.getToolTip().add(Component.translatable("tooltip.added_in", result.version()).withStyle(ChatFormatting.BLUE));
+        event.getToolTip().add(Component.translatable("tooltip.added_in", result.version()).withStyle(ChatFormatting.BLUE).withStyle(ChatFormatting.ITALIC));
     }
 }
