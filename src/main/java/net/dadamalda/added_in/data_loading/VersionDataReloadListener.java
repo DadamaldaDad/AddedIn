@@ -4,7 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import net.dadamalda.added_in.Added_in;
+import net.dadamalda.added_in.records.EnchantmentVersionData;
 import net.dadamalda.added_in.records.ItemVersionData;
+import net.dadamalda.added_in.records.PaintingVersionData;
 import net.dadamalda.added_in.records.PotionVersionData;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.ResourceManager;
@@ -60,6 +62,24 @@ public class VersionDataReloadListener extends SimpleJsonResourceReloadListener 
                     }
                     PotionVersionData data = new PotionVersionData(version, splash_version, lingering_version, arrow_version);
                     VersionDataHolder.POTIONS.put(potion_id, data);
+                }
+            }
+            if(root.get("enchantments") != null && root.get("enchantments").isJsonObject()) {
+                JsonObject enchantments = root.get("enchantments").getAsJsonObject();
+                for(Map.Entry<String, JsonElement> enchantment : enchantments.asMap().entrySet()) {
+                    if(!enchantment.getValue().isJsonPrimitive()) continue;
+                    ResourceLocation item_id = ResourceLocation.parse(enchantment.getKey());
+                    EnchantmentVersionData data = new EnchantmentVersionData(enchantment.getValue().getAsString());
+                    VersionDataHolder.ENCHANTMENTS.put(item_id, data);
+                }
+            }
+            if(root.get("paintings") != null && root.get("paintings").isJsonObject()) {
+                JsonObject paintings = root.get("paintings").getAsJsonObject();
+                for(Map.Entry<String, JsonElement> painting : paintings.asMap().entrySet()) {
+                    if(!painting.getValue().isJsonPrimitive()) continue;
+                    ResourceLocation item_id = ResourceLocation.parse(painting.getKey());
+                    PaintingVersionData data = new PaintingVersionData(painting.getValue().getAsString());
+                    VersionDataHolder.PAINTINGS.put(item_id, data);
                 }
             }
         }
