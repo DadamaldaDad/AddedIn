@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VersionProviders {
-    private static List<VersionProvider> providers = new ArrayList<>();
+    private static List<VersionProvider<ItemStack>> itemVersionProviders = new ArrayList<>();
 
-    public static void register(VersionProvider provider) {
-        providers.addFirst(provider);
+    public static void registerItem(VersionProvider<ItemStack> provider) {
+        itemVersionProviders.addFirst(provider);
     }
 
     public static VersionResult getItemVersion(ItemStack itemStack) {
-        for (VersionProvider provider : providers) {
+        for (VersionProvider<ItemStack> provider : itemVersionProviders) {
             VersionResult result = provider.getVersion(itemStack);
             if(result.state() == TriState.FALSE) return VersionResult.none();
             if(result.state() == TriState.TRUE) return result;

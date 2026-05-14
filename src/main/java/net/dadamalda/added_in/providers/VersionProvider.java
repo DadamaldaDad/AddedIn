@@ -1,8 +1,6 @@
 package net.dadamalda.added_in.providers;
 
-import net.minecraft.world.item.ItemStack;
-
 @FunctionalInterface
-public interface VersionProvider {
-    VersionResult getVersion(ItemStack itemStack);
+public interface VersionProvider<T> {
+    VersionResult getVersion(T object);
 }

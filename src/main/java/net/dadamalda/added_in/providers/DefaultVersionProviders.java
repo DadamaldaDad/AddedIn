@@ -17,14 +17,14 @@ import java.util.Optional;
 
 public class DefaultVersionProviders {
     public static void register() {
-        VersionProviders.register((itemStack -> {
+        VersionProviders.registerItem((itemStack -> {
             ResourceLocation item_id = BuiltInRegistries.ITEM.getKey(itemStack.getItem());
             ItemVersionData data = VersionDataHolder.ITEMS.get(item_id);
             if(data == null) return VersionResult.pass();
             return VersionResult.success(data.version());
         }));
 
-        VersionProviders.register(itemStack -> {
+        VersionProviders.registerItem(itemStack -> {
             PotionContents potionContents = itemStack.getComponents().get(DataComponents.POTION_CONTENTS);
             if(potionContents == null) return VersionResult.pass();
             Optional<Holder<Potion>> optionalPotionHolder = potionContents.potion();
@@ -45,7 +45,7 @@ public class DefaultVersionProviders {
             }
         });
 
-        VersionProviders.register(itemStack -> {
+        VersionProviders.registerItem(itemStack -> {
             if(!itemStack.is(Items.WHITE_BANNER)) return VersionResult.pass();
             Unit dataComponent = itemStack.getComponents().get(DataComponents.HIDE_ADDITIONAL_TOOLTIP);
             if(dataComponent == null) return VersionResult.pass();
