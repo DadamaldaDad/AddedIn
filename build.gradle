@@ -178,7 +178,7 @@ modrinth {
     loaders = ["neoforge"]
     changelog = file("changelog.md").text
 
-    dependencies {}
+    // dependencies {}
 }
 
 curseforge {
@@ -193,7 +193,7 @@ curseforge {
         mainArtifact(jar) {
             displayName = project.version
         }
-        relations {}
+        // relations {}
     }
 }
 
