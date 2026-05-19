@@ -104,7 +104,7 @@ def run():
         "potions": potions,
         "enchantments": enchantments,
         "paintings": paintings
-    }, indent=4)
+    })
     Path("../src/main/resources/assets/added_in/version_data/minecraft.json").write_text(final_json)
     print("Done, bye.")
 
