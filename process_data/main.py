@@ -14,6 +14,8 @@ def namespace_id(id: str):
 
 def clean_version(version: str) -> str:
     split_version = version.split()
+    if version == "1.2": return "1.2.1"
+    if version == "1.7": return "1.7.2"
     match version.split(" ")[0]:
         case "Alpha":
             return f"Alpha {split_version[1][1:]}"
