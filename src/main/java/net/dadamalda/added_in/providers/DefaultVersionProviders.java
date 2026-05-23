@@ -1,18 +1,20 @@
 package net.dadamalda.added_in.providers;
 
 import net.dadamalda.added_in.data_loading.VersionDataHolder;
-import net.dadamalda.added_in.records.EnchantmentVersionData;
-import net.dadamalda.added_in.records.ItemVersionData;
-import net.dadamalda.added_in.records.PaintingVersionData;
+import net.dadamalda.added_in.records.SimpleVersionData;
 import net.dadamalda.added_in.records.PotionVersionData;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.StringTag;
 import net.minecraft.nbt.Tag;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Unit;
+import net.minecraft.world.entity.decoration.Painting;
+import net.minecraft.world.entity.decoration.PaintingVariant;
+import net.minecraft.world.entity.decoration.PaintingVariants;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionContents;
@@ -27,7 +29,7 @@ public class DefaultVersionProviders {
     public static void register() {
         VersionProviders.registerItem((itemStack -> {
             ResourceLocation item_id = BuiltInRegistries.ITEM.getKey(itemStack.getItem());
-            ItemVersionData data = VersionDataHolder.ITEMS.get(item_id);
+            SimpleVersionData data = VersionDataHolder.ITEMS.get(item_id);
             if(data == null) return VersionResult.pass();
             return VersionResult.success(data.version());
         }));
@@ -71,7 +73,7 @@ public class DefaultVersionProviders {
             ResourceLocation enchantmentId = enchantmentHolder.unwrapKey()
                     .map(ResourceKey::location)
                     .orElse(ResourceLocation.fromNamespaceAndPath("minecraft", "unknown"));
-            EnchantmentVersionData data = VersionDataHolder.ENCHANTMENTS.get(enchantmentId);
+            SimpleVersionData data = VersionDataHolder.ENCHANTMENTS.get(enchantmentId);
             if(data == null) return VersionResult.none();
             return VersionResult.success(data.version());
         });
@@ -83,9 +85,38 @@ public class DefaultVersionProviders {
             Tag variantTag = entityData.copyTag().get("variant");
             if(!(variantTag instanceof StringTag stringVariantTag)) return VersionResult.none();
             ResourceLocation paintingId = ResourceLocation.parse(stringVariantTag.getAsString());
-            PaintingVersionData data = VersionDataHolder.PAINTINGS.get(paintingId);
+            SimpleVersionData data = VersionDataHolder.PAINTINGS.get(paintingId);
             if(data == null) return VersionResult.none();
             return VersionResult.success(data.version());
         });
+
+
+
+        VersionProviders.registerBlock((blockState -> {
+            ResourceLocation block_id = BuiltInRegistries.BLOCK.getKey(blockState.getBlock());
+            SimpleVersionData data = VersionDataHolder.BLOCKS.get(block_id);
+            if(data == null) return VersionResult.pass();
+            return VersionResult.success(data.version());
+        }));
+
+
+
+        VersionProviders.registerEntity((entity -> {
+            ResourceLocation entity_id = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
+            SimpleVersionData data = VersionDataHolder.ENTITIES.get(entity_id);
+            if(data == null) return VersionResult.pass();
+            return VersionResult.success(data.version());
+        }));
+
+        VersionProviders.registerEntity((entity -> {
+            if(!(entity instanceof Painting painting)) return VersionResult.pass();
+            ResourceKey<PaintingVariant> painting_key = painting.getVariant().getKey();
+            if(painting_key == null) return VersionResult.none();
+            ResourceLocation painting_id = painting_key.location();
+            SimpleVersionData data = VersionDataHolder.PAINTINGS.get(painting_id);
+            if(data == null) return VersionResult.pass();
+            return VersionResult.success(data.version());
+        }));
+
     }
 }

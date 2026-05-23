@@ -4,14 +4,13 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import net.dadamalda.added_in.Added_in;
-import net.dadamalda.added_in.records.EnchantmentVersionData;
-import net.dadamalda.added_in.records.ItemVersionData;
-import net.dadamalda.added_in.records.PaintingVersionData;
+import net.dadamalda.added_in.records.SimpleVersionData;
 import net.dadamalda.added_in.records.PotionVersionData;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener;
 import net.minecraft.util.profiling.ProfilerFiller;
+import net.neoforged.fml.ModList;
 
 import java.util.Map;
 
@@ -23,6 +22,7 @@ public class VersionDataReloadListener extends SimpleJsonResourceReloadListener 
 
     @Override
     protected void apply(Map<ResourceLocation, JsonElement> resourceLocationJsonElementMap, ResourceManager resourceManager, ProfilerFiller profilerFiller) {
+        boolean jadeLoaded = ModList.get().isLoaded("jade");
         VersionDataHolder.ITEMS.clear();
         VersionDataHolder.POTIONS.clear();
         for(Map.Entry<ResourceLocation, JsonElement> entry : resourceLocationJsonElementMap.entrySet()) {
@@ -34,7 +34,7 @@ public class VersionDataReloadListener extends SimpleJsonResourceReloadListener 
                 for(Map.Entry<String, JsonElement> item : items.asMap().entrySet()) {
                     if(!item.getValue().isJsonPrimitive()) continue;
                     ResourceLocation item_id = ResourceLocation.parse(item.getKey());
-                    ItemVersionData data = new ItemVersionData(item.getValue().getAsString());
+                    SimpleVersionData data = new SimpleVersionData(item.getValue().getAsString());
                     VersionDataHolder.ITEMS.put(item_id, data);
                 }
             }
@@ -68,18 +68,39 @@ public class VersionDataReloadListener extends SimpleJsonResourceReloadListener 
                 JsonObject enchantments = root.get("enchantments").getAsJsonObject();
                 for(Map.Entry<String, JsonElement> enchantment : enchantments.asMap().entrySet()) {
                     if(!enchantment.getValue().isJsonPrimitive()) continue;
-                    ResourceLocation item_id = ResourceLocation.parse(enchantment.getKey());
-                    EnchantmentVersionData data = new EnchantmentVersionData(enchantment.getValue().getAsString());
-                    VersionDataHolder.ENCHANTMENTS.put(item_id, data);
+                    ResourceLocation enchantmen_id = ResourceLocation.parse(enchantment.getKey());
+                    SimpleVersionData data = new SimpleVersionData(enchantment.getValue().getAsString());
+                    VersionDataHolder.ENCHANTMENTS.put(enchantmen_id, data);
                 }
             }
             if(root.get("paintings") != null && root.get("paintings").isJsonObject()) {
                 JsonObject paintings = root.get("paintings").getAsJsonObject();
                 for(Map.Entry<String, JsonElement> painting : paintings.asMap().entrySet()) {
                     if(!painting.getValue().isJsonPrimitive()) continue;
-                    ResourceLocation item_id = ResourceLocation.parse(painting.getKey());
-                    PaintingVersionData data = new PaintingVersionData(painting.getValue().getAsString());
-                    VersionDataHolder.PAINTINGS.put(item_id, data);
+                    ResourceLocation painting_id = ResourceLocation.parse(painting.getKey());
+                    SimpleVersionData data = new SimpleVersionData(painting.getValue().getAsString());
+                    VersionDataHolder.PAINTINGS.put(painting_id, data);
+                }
+            }
+
+
+
+            if(jadeLoaded && root.get("blocks") != null && root.get("blocks").isJsonObject()) {
+                JsonObject blocks = root.get("blocks").getAsJsonObject();
+                for(Map.Entry<String, JsonElement> block : blocks.asMap().entrySet()) {
+                    if(!block.getValue().isJsonPrimitive()) continue;
+                    ResourceLocation block_id = ResourceLocation.parse(block.getKey());
+                    SimpleVersionData data = new SimpleVersionData(block.getValue().getAsString());
+                    VersionDataHolder.BLOCKS.put(block_id, data);
+                }
+            }
+            if(jadeLoaded && root.get("entities") != null && root.get("entities").isJsonObject()) {
+                JsonObject entities = root.get("entities").getAsJsonObject();
+                for(Map.Entry<String, JsonElement> entity : entities.asMap().entrySet()) {
+                    if(!entity.getValue().isJsonPrimitive()) continue;
+                    ResourceLocation entity_id = ResourceLocation.parse(entity.getKey());
+                    SimpleVersionData data = new SimpleVersionData(entity.getValue().getAsString());
+                    VersionDataHolder.ENTITIES.put(entity_id, data);
                 }
             }
         }

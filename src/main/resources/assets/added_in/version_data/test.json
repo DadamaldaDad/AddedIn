@@ -1,0 +1,8 @@
+{
+  "blocks": {
+    "minecraft:mud": "1.19"
+  },
+  "entities": {
+    "minecraft:frog": "1.19"
+  }
+}
