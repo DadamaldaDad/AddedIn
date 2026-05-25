@@ -21,6 +21,10 @@ import net.minecraft.world.item.alchemy.PotionContents;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BannerBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.Objects;
 import java.util.Optional;
@@ -98,6 +102,16 @@ public class DefaultVersionProviders {
             if(data == null) return VersionResult.pass();
             return VersionResult.success(data.version());
         }));
+
+        VersionProviders.registerBlock(blockWrapper -> {
+            BlockState blockState = blockWrapper.getBlockState();
+            if(!blockState.is(Blocks.WHITE_BANNER) && !blockState.is(Blocks.WHITE_WALL_BANNER)) return VersionResult.pass();
+            BlockEntity blockEntity = blockWrapper.getBlockEntity();
+            if(!(blockEntity instanceof BannerBlockEntity banner)) return VersionResult.none();
+            Unit dataComponent = banner.components().get(DataComponents.HIDE_ADDITIONAL_TOOLTIP);
+            if(dataComponent == null) return VersionResult.pass();
+            return VersionResult.success("1.14");
+        });
 
 
 
