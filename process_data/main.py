@@ -80,7 +80,6 @@ def run():
     assert isinstance(full_enchantments_df, pd.DataFrame)
     enchantments_df: pd.DataFrame = full_enchantments_df.iloc[:, [1, 2]]
     enchantments_df.columns = ["id", "version"]
-    print(enchantments_df.head())
     enchantments_df["version"] = enchantments_df["version"].apply(clean_version)
     enchantments_df["id"] = enchantments_df["id"].apply(namespace_id)
     enchantments: dict[str, str] = {
@@ -101,11 +100,39 @@ def run():
     }
     print("Paintings done")
 
+    full_blocks_df = pd.read_csv("./blocks.csv", skiprows=4, header=None)
+    assert isinstance(full_blocks_df, pd.DataFrame)
+    blocks_df: pd.DataFrame = full_blocks_df.iloc[:, [2, 3]]
+    blocks_df.columns = ["id", "version"]
+    blocks_df["version"] = blocks_df["version"].apply(clean_version)
+    blocks_df["id"] = blocks_df["id"].apply(namespace_id)
+    prepared_manual_inserts = [{"id": namespace_id(row[0]), "version": row[1]} for row in manual_inserts]
+    df2 = pd.concat([df, pd.DataFrame(prepared_manual_inserts)], ignore_index=True)
+    blocks: dict[str, str] = {
+        row["id"]: row["version"]
+        for index, row in df2.iterrows()
+    }
+    print("Blocks done")
+
+    full_entities_df = pd.read_csv("./entities.csv", skiprows=4, header=None)
+    assert isinstance(full_entities_df, pd.DataFrame)
+    entities_df: pd.DataFrame = full_entities_df.iloc[:, [2, 3]]
+    entities_df.columns = ["id", "version"]
+    entities_df["version"] = entities_df["version"].apply(clean_version)
+    entities_df["id"] = entities_df["id"].apply(namespace_id)
+    entities: dict[str, str] = {
+        row["id"]: row["version"]
+        for index, row in entities_df.iterrows()
+    }
+    print("Entities done")
+
     final_json = json.dumps({
         "items": items,
         "potions": potions,
         "enchantments": enchantments,
-        "paintings": paintings
+        "paintings": paintings,
+        "blocks": blocks,
+        "entities": entities
     })
     Path("../src/main/resources/assets/added_in/version_data/minecraft.json").write_text(final_json)
     print("Done, bye.")
