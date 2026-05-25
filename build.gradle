@@ -191,7 +191,9 @@ modrinth {
     loaders = ["neoforge"]
     changelog = file("changelog.md").text
 
-    // dependencies {}
+    dependencies {
+        optional.project("jade")
+    }
 }
 
 curseforge {
@@ -206,7 +208,9 @@ curseforge {
         mainArtifact(jar) {
             displayName = project.version
         }
-        // relations {}
+        relations {
+            optionalDependency("jade")
+        }
     }
 }
 

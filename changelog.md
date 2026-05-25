@@ -1,2 +1,2 @@
-- Fix 1.2 and 1.7 appearing despite being pre-releases
-- Minify json for maybe slightly faster loading and slightly smaller file size
+- Added Jade support to show blocks and entities
+- Some code changes for more flexibility
