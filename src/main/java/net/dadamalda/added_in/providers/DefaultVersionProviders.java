@@ -92,8 +92,8 @@ public class DefaultVersionProviders {
 
 
 
-        VersionProviders.registerBlock((blockState -> {
-            ResourceLocation block_id = BuiltInRegistries.BLOCK.getKey(blockState.getBlock());
+        VersionProviders.registerBlock((blockWrapper -> {
+            ResourceLocation block_id = BuiltInRegistries.BLOCK.getKey(blockWrapper.getBlock());
             SimpleVersionData data = VersionDataHolder.BLOCKS.get(block_id);
             if(data == null) return VersionResult.pass();
             return VersionResult.success(data.version());

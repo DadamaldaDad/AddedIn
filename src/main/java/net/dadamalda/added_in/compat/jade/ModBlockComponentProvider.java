@@ -21,7 +21,8 @@ public enum ModBlockComponentProvider implements IBlockComponentProvider {
             BlockAccessor accessor,
             IPluginConfig config
     ) {
-        VersionResult result = VersionProviders.getBlockVersion(accessor.getBlockState());
+        BlockWrapper wrapper = new BlockWrapper(accessor::getBlock, accessor::getBlockState, accessor::getBlockEntity);
+        VersionResult result = VersionProviders.getBlockVersion(wrapper);
         if(result.state() == TriState.FALSE) return;
         tooltip.add(Component.translatable("tooltip.added_in", result.version()).withStyle(ChatFormatting.BLUE).withStyle(ChatFormatting.ITALIC));
     }
