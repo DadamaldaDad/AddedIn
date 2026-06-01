@@ -107,7 +107,7 @@ def run():
     blocks_df["version"] = blocks_df["version"].apply(clean_version)
     blocks_df["id"] = blocks_df["id"].apply(namespace_id)
     prepared_manual_inserts = [{"id": namespace_id(row[0]), "version": row[1]} for row in manual_inserts]
-    df2 = pd.concat([df, pd.DataFrame(prepared_manual_inserts)], ignore_index=True)
+    df2 = pd.concat([blocks_df, pd.DataFrame(prepared_manual_inserts)], ignore_index=True)
     blocks: dict[str, str] = {
         row["id"]: row["version"]
         for index, row in df2.iterrows()
